@@ -7,7 +7,7 @@ project(spqrel_launch)
 find_package(catkin REQUIRED COMPONENTS
   ms_face_api
   rospy
-  v4r_ros_wrappers
+  singleview_object_recognizer
 )
 
 ## System dependencies are found with CMake's conventions
@@ -102,7 +102,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES spqrel_launch
-#  CATKIN_DEPENDS ms_face_api rospy v4r_ros_wrappers
+#  CATKIN_DEPENDS ms_face_api rospy singleview_object_recognizer
 #  DEPENDS system_lib
 )
 
