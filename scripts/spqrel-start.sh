@@ -13,7 +13,7 @@ tmux new-window -t $SESSION:4 -n 'objects'
 tmux new-window -t $SESSION:5 -n 'people'
 tmux new-window -t $SESSION:6 -n 'tablet'
 tmux new-window -t $SESSION:7 -n 'plans'
-#tmux new-window -t $SESSION:8 -n 'plans'
+
 
 tmux select-window -t $SESSION:0
 tmux split-window -v
@@ -49,6 +49,25 @@ tmux send-keys "sleep 6;cd $SPQREL_PREFIX/slu4p; python dialogue_management/dial
 tmux split-window -h
 tmux select-pane -t 3
 tmux send-keys "sleep 9;cd $SPQREL_PREFIX/slu4p; python text_to_speech/text_to_speech.py" C-m
+
+
+# Actions and plans 
+tmux select-window -t $SESSION:7
+tmux split-window -v
+tmux select-pane -t 0
+tmux send-keys "cd $SPQREL_PREFIX; pnp_naoqi" C-m
+tmux split-window -h
+tmux select-pane -t 1
+tmux send-keys "cd $SPQREL_PREFIX/actions; python init_actions.py" C-m
+tmux select-pane -t 2
+tmux send-keys "cd $SPQREL_PREFIX/actions" C-m
+tmux send-keys "./action_cmd.py -a   -p   -c start"
+tmux split-window -h
+tmux select-pane -t 3
+tmux send-keys "cd $SPQREL_PREFIX/plans" C-m
+tmux send-keys "./run_plan.py  "
+
+
 
 # Set default window
 tmux select-window -t $SESSION:0
