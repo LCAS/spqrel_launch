@@ -1,6 +1,0 @@
-
-<launch>
-	<node pkg="ms_face_api" type="face_api_node.py" name="cogntivefaceapi">
-		<param name="key" value="be062e88698e4777ac6196623d7230dd" />
-	</node>
-</launch>
