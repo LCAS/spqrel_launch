@@ -29,8 +29,8 @@ clean:
 	rm -rf $(INSTALL_TREE)
 	rm -rf cookies
 
-BINS:=$(shell find $(QIBUILDS_BUILD_DIRS) -type f  | xargs file | grep "LSB executable" | cut -f1 -d: | grep -v CMakeFiles)
-LIBS:=$(shell find $(QIBUILDS_BUILD_DIRS) -type f -a -name "*.so" | xargs file | grep "LSB shared object" | cut -f1 -d: | grep -v CMakeFiles)
+BINS:=$(shell find $(QIBUILDS_BUILD_DIRS) -type f  | xargs -r file | grep "LSB executable" | cut -f1 -d: | grep -v CMakeFiles)
+LIBS:=$(shell find $(QIBUILDS_BUILD_DIRS) -type f -a -name "*.so" | xargs -r file | grep "LSB shared object" | cut -f1 -d: | grep -v CMakeFiles)
 
 bins: build $(BINS) $(LIBS)
 	@echo $(QIBUILDS_BUILD_DIRS)
@@ -51,13 +51,15 @@ plans/%.pnml: plans/%.plan
 
 $(INSTALL_TREE)/.git:
 	mkdir -p $(INSTALL_TREE)
-	git clone --depth 1 -b $(GIT_BRANCH) --single-branch https://github.com/lcas/spqrel_launch.git $(INSTALL_TREE) 
+	(git clone --depth 1 -b $(GIT_BRANCH) \
+			--single-branch https://github.com/lcas/spqrel_launch.git $(INSTALL_TREE) || \
+	 git init $(INSTALL_TREE))
 	 
 
 install_prep: $(INSTALL_TREE)/.git
 
 install_pull: install_prep
-	(cd $(INSTALL_TREE); \
+	-(cd $(INSTALL_TREE); \
 		git pull --depth 1 -X theirs --no-edit)
 
 install: $(PNMLS)  install_bins
@@ -87,3 +89,7 @@ cookies/configure:	$(QIBUILDS)
 	mkdir -p cookies; touch $@
 
 configure: cookies/configure
+
+reconfigure: 
+	-rm cookies/configure
+	$(MAKE) configure
