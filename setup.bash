@@ -22,3 +22,8 @@ alias kill-tmux="tmux list-panes -s -F \"#{pane_pid} #{pane_current_command}\" |
 
 echo "SPQREL_HOME=$SPQREL_HOME"
 echo "PEPPER_IP=$PEPPER_IP"
+echo "PATH=$PATH"
+echo "LD_LIBRARY_PATH=$LD_LIBRARY_PATH"
+echo "PYTHONPATH=$PYTHONPATH"
+
+
