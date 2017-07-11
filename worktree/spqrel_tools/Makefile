@@ -4,9 +4,17 @@ PLANS:=$(shell find plans -name "*.plan")
 
 PNMLS=$(PLANS:.plan=.pnml)
 
+# set you toolchain according to your qibuild toolchains, default is cross-compilatio for pepper,
+# usually, we should have only "pepper" and "linux64", as described at https://sites.google.com/a/dis.uniroma1.it/peppino/software-setup
 TOOLCHAIN?="pepper"
+
+# path to the pnp_translator
 PNPTRANS?=$(shell readlink -f ../PetriNetPlans/PNPgen/bin/pnpgen_translator)
+
+# install tree for the full installation
 INSTALL_TREE?=$(shell readlink -f ../../install-$(TOOLCHAIN))
+
+# worktree, usually one level up
 WORKTREE?=$(shell readlink -f ..)
 
 GIT_BRANCH=$(TOOLCHAIN)
@@ -75,7 +83,7 @@ push: install
 
 
 
-build:	$(QIBUILDS) cookies/configure
+build:	$(QIBUILDS) cookies/configure-$(TOOLCHAIN)
 	for qb in $(QIBUILDS); do \
 		d=`dirname $$qb`; \
 		(cd $$d; pwd; qibuild make $(QI_MAKE_OPTS)) \
