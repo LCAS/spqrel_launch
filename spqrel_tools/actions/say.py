@@ -15,6 +15,8 @@ def phraseToSay(params):
         return "Hello!"
     elif (params=='starting'):
         return "OK. Let's start!"
+    elif (params=='goodbye'):
+        return "Goodbye! See you soon!"
     return "Nothing to say."
 
 def actionThread_exec (params):

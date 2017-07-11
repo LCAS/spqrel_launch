@@ -1,29 +1,14 @@
 
 Generation of PNP 'sample1'
-plan read:  waitfor_screentouched; dialogue_howareyou; posture_Stand; say_hello; waitfor_dooropen; say_starting; posture_Rest;
-current plan:  waitfor_screentouched; dialogue_howareyou; posture_Stand; say_hello; waitfor_dooropen; say_starting; posture_Rest;
-rest of the plan:  dialogue_howareyou; posture_Stand; say_hello; waitfor_dooropen; say_starting; posture_Rest;
-..adding action: waitfor_screentouched
-current plan:  dialogue_howareyou; posture_Stand; say_hello; waitfor_dooropen; say_starting; posture_Rest;
-rest of the plan:  posture_Stand; say_hello; waitfor_dooropen; say_starting; posture_Rest;
-..adding action: dialogue_howareyou
-current plan:  posture_Stand; say_hello; waitfor_dooropen; say_starting; posture_Rest;
-rest of the plan:  say_hello; waitfor_dooropen; say_starting; posture_Rest;
-..adding action: posture_Stand
-current plan:  say_hello; waitfor_dooropen; say_starting; posture_Rest;
-rest of the plan:  waitfor_dooropen; say_starting; posture_Rest;
-..adding action: say_hello
-current plan:  waitfor_dooropen; say_starting; posture_Rest;
-rest of the plan:  say_starting; posture_Rest;
-..adding action: waitfor_dooropen
-current plan:  say_starting; posture_Rest;
-rest of the plan:  posture_Rest;
-..adding action: say_starting
-current plan:  posture_Rest;
+plan read:  headpose_0_-3; headpose_0_0;
+current plan:  headpose_0_-3; headpose_0_0;
+rest of the plan:  headpose_0_0;
+..adding action: headpose_0_-3
+current plan:  headpose_0_0;
 rest of the plan: 
-..adding action: posture_Rest
+..adding action: headpose_0_0
 current plan: 
 end
 
 PNP 'sample1' saved.
-PNP stats: 'Actions: 7 Places: 15 Transitions: 14 Edges: 28
+PNP stats: 'Actions: 2 Places: 5 Transitions: 4 Edges: 8

@@ -8,6 +8,8 @@ PNMLS=$(PLANS:.plan=.pnml)
 # usually, we should have only "pepper" and "linux64", as described at https://sites.google.com/a/dis.uniroma1.it/peppino/software-setup
 TOOLCHAIN?=pepper
 
+AUX_DIRS=scripts actions plans maps
+
 # path to the pnp_translator
 PNPTRANS?=$(shell readlink -f ../PetriNetPlans/PNPgen/bin/pnpgen_translator)
 
@@ -72,7 +74,7 @@ install_pull: install_prep
 
 install: $(PNMLS)  install_bins
 	rsync -a --exclude '.git' --exclude '.gitignore' $(WORKTREE)/* $(INSTALL_TREE)
-	rsync -a --exclude '.git' --exclude '.gitignore' scripts actions plans $(INSTALL_TREE)
+	rsync -a --exclude '.git' --exclude '.gitignore' $(AUX_DIRS) $(INSTALL_TREE)
 	(cd $(INSTALL_TREE); \
 		git add -A --ignore-removal . && \
 		git commit --allow-empty -a -m "committed by $$USER from `hostname` at `date`")
