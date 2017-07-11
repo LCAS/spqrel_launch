@@ -21,9 +21,8 @@ alias shutdown-tmux="tmux list-panes -s -F \"#{pane_pid} #{pane_current_command}
 alias kill-tmux="tmux list-panes -s -F \"#{pane_pid} #{pane_current_command}\" | grep -v tmux | awk \"{print \\\$1}\" | xargs kill -9"
 
 # find all python dirs:
-PYDIRS=`find "$SPQREL_HOME" -name "*.py" | xargs -n 1 dirname | sort -u | xargs -n 1 -- readlink -f | tr "\n" ":"`
-
-export PYTHONPATH=${PYTHONPATH}:${PYDIRS}
+# PYDIRS=`find "$SPQREL_HOME" -name "*.py" | xargs -n 1 dirname | sort -u | xargs -n 1 -- readlink -f | tr "\n" ":"`
+# export PYTHONPATH=${PYTHONPATH}:${PYDIRS}
 
 
 
