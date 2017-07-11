@@ -1,0 +1,23 @@
+
+Generation of PNP 'rips'
+plan read:  waitfor_dooropen; enter_maindoor; goto_inspectionpoint;  # er: if personhere say_hello goto_entrance;         # er: if personhere say_hello exit_maindoor;
+current plan:  waitfor_dooropen; enter_maindoor; goto_inspectionpoint;  # er: if personhere say_hello goto_entrance;         # er: if personhere say_hello exit_maindoor;
+rest of the plan:  enter_maindoor; goto_inspectionpoint;  # er: if personhere say_hello goto_entrance;         # er: if personhere say_hello exit_maindoor;
+..adding action: waitfor_dooropen
+current plan:  enter_maindoor; goto_inspectionpoint;  # er: if personhere say_hello goto_entrance;         # er: if personhere say_hello exit_maindoor;
+rest of the plan:  goto_inspectionpoint;  # er: if personhere say_hello goto_entrance;         # er: if personhere say_hello exit_maindoor;
+..adding action: enter_maindoor
+current plan:  goto_inspectionpoint;  # er: if personhere say_hello goto_entrance;         # er: if personhere say_hello exit_maindoor;
+rest of the plan:   # er: if personhere say_hello goto_entrance;         # er: if personhere say_hello exit_maindoor;
+..adding action: goto_inspectionpoint
+current plan:   # er: if personhere say_hello goto_entrance;         # er: if personhere say_hello exit_maindoor;
+rest of the plan:          # er: if personhere say_hello exit_maindoor;
+..adding action: # er: if personhere say_hello goto_entrance
+current plan:          # er: if personhere say_hello exit_maindoor;
+rest of the plan: 
+..adding action: # er: if personhere say_hello exit_maindoor
+current plan: 
+end
+
+PNP 'rips' saved.
+PNP stats: 'Actions: 3 Places: 7 Transitions: 6 Edges: 12

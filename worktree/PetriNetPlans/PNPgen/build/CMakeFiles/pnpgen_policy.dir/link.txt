@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++11   CMakeFiles/pnpgen_policy.dir/src/pnpgen_policy.cpp.o  -o ../bin/pnpgen_policy -rdynamic ../lib/libpnpgen.so -lboost_regex -Wl,-rpath,/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/lib: 

@@ -1,0 +1,17 @@
+
+Generation of PNP 'sample2'
+plan read:  waitfor_dooropen; say_starting; enterdoor
+current plan:  waitfor_dooropen; say_starting; enterdoor
+rest of the plan:  say_starting; enterdoor
+..adding action: waitfor_dooropen
+current plan:  say_starting; enterdoor
+rest of the plan:  enterdoor
+..adding action: say_starting
+current plan:  enterdoor
+rest of the plan: 
+..adding action: enterdoor
+current plan: 
+end
+
+PNP 'sample2' saved.
+PNP stats: 'Actions: 3 Places: 7 Transitions: 6 Edges: 12
