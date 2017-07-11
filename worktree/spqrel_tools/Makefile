@@ -81,15 +81,15 @@ build:	$(QIBUILDS) cookies/configure
 		(cd $$d; pwd; qibuild make $(QI_MAKE_OPTS)) \
 	done
 
-cookies/configure:	$(QIBUILDS)
+cookies/configure-$(TOOLCHAIN):	$(QIBUILDS)
 	for qb in $(QIBUILDS); do \
 		d=`dirname $$qb`; \
 		(cd $$d; pwd; qibuild configure $(QI_CONF_OPTS)) \
 	done
 	mkdir -p cookies; touch $@
 
-configure: cookies/configure
+configure: cookies/configure-$(TOOLCHAIN)
 
 reconfigure: 
-	-rm cookies/configure
+	-rm cookies/configure-$(TOOLCHAIN)
 	$(MAKE) configure
