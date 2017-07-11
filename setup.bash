@@ -1,5 +1,9 @@
+_SETUP_DIR=$(builtin cd "`dirname "${BASH_SOURCE[0]}"`" > /dev/null && pwd)
+
 if [ "$1" ]; then
 	export SPQREL_HOME="$1"
+else
+	SPQREL_HOME=$_SETUP_DIR
 fi
 
 # default home is $HOME/spqrel
