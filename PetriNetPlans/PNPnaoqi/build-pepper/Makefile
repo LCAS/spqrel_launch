@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi
+CMAKE_SOURCE_DIR = /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper
+CMAKE_BINARY_DIR = /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,8 +91,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -124,9 +124,9 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -193,356 +193,356 @@ pnp_naoqi/fast:
 	$(MAKE) -f CMakeFiles/pnp_naoqi.dir/build.make CMakeFiles/pnp_naoqi.dir/build
 .PHONY : pnp_naoqi/fast
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.o: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.o: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.o
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.o
-
-# target to build an object file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.o:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.o
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.o
-
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.i: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.i
-
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.i
-
-# target to preprocess a source file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.i:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.i
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.i
-
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.s: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.s
-
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.s
-
-# target to generate assembly for a file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.s:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.s
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.s
-
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.o: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.cpp.o
-
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.o
 
 # target to build an object file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.cpp.o:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.cpp.o
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.o:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.o
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.i: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.i: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.i
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.i
 
 # target to preprocess a source file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.cpp.i:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.cpp.i
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.i:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.i
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.s: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.s: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.s
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.s
 
 # target to generate assembly for a file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.cpp.s:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.cpp.s
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.s:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp.s
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.o: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.o: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.cpp.o
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.o
 
 # target to build an object file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.cpp.o:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.cpp.o
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.cpp.o:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.cpp.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.cpp.o
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.i: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.i: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.cpp.i
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.i
 
 # target to preprocess a source file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.cpp.i:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.cpp.i
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.cpp.i:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.cpp.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.cpp.i
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.s: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.s: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.cpp.s
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.s
 
 # target to generate assembly for a file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.cpp.s:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.cpp.s
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.cpp.s:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.cpp.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.cpp.s
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.o: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.o: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.cpp.o
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.o
 
 # target to build an object file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.o:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.o
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.cpp.o:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.cpp.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.cpp.o
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.i: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.i: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.cpp.i
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.i
 
 # target to preprocess a source file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.i:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.i
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.cpp.i:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.cpp.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.cpp.i
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.s: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.s: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.cpp.s
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.s
 
 # target to generate assembly for a file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.s:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.s
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.cpp.s:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.cpp.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.cpp.s
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.o: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.o: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.o
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.o
 
 # target to build an object file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.o:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.o
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.o:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.o
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.i: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.i: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.i
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.i
 
 # target to preprocess a source file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.i:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.i
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.i:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.i
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.s: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.s: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.s
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.s
 
 # target to generate assembly for a file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.s:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.s
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.s:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.cpp.s
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.o: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.o: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.o
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.o
 
 # target to build an object file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.cpp.o:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.cpp.o
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.o:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.o
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.i: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.i: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.i
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.i
 
 # target to preprocess a source file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.cpp.i:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.cpp.i
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.i:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.i
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.s: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.s: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.s
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.s
 
 # target to generate assembly for a file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.cpp.s:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.cpp.s
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.s:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp.s
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.o: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.o: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.cpp.o
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.o
 
 # target to build an object file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.cpp.o:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.cpp.o
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.cpp.o:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.cpp.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.cpp.o
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.i: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.i: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.cpp.i
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.i
 
 # target to preprocess a source file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.cpp.i:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.cpp.i
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.cpp.i:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.cpp.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.cpp.i
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.s: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.s: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.cpp.s
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.s
 
 # target to generate assembly for a file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.cpp.s:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.cpp.s
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.cpp.s:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.cpp.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.cpp.s
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.o: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.o: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.cpp.o
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.o
 
 # target to build an object file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.o:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.o
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.cpp.o:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.cpp.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.cpp.o
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.i: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.i: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.cpp.i
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.i
 
 # target to preprocess a source file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.i:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.i
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.cpp.i:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.cpp.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.cpp.i
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.s: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.s: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.cpp.s
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.s
 
 # target to generate assembly for a file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.s:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.s
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.cpp.s:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.cpp.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.cpp.s
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.o: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.o: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.o
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.o
 
 # target to build an object file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.cpp.o:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.cpp.o
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.o:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.o
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.i: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.i: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.i
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.i
 
 # target to preprocess a source file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.cpp.i:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.cpp.i
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.i:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.i
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.s: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.s: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.s
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.s
 
 # target to generate assembly for a file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.cpp.s:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.cpp.s
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.s:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp.s
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.o: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.o: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.cpp.o
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.o
 
 # target to build an object file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.cpp.o:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.cpp.o
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.cpp.o:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.cpp.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.cpp.o
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.i: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.i: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.cpp.i
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.i
 
 # target to preprocess a source file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.cpp.i:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.cpp.i
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.cpp.i:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.cpp.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.cpp.i
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.s: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.s: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.cpp.s
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.s
 
 # target to generate assembly for a file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.cpp.s:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.cpp.s
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.cpp.s:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.cpp.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.cpp.s
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.o: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.o: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.cpp.o
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.o
 
 # target to build an object file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.cpp.o:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.cpp.o
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.cpp.o:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.cpp.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.cpp.o
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.i: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.i: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.cpp.i
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.i
 
 # target to preprocess a source file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.cpp.i:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.cpp.i
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.cpp.i:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.cpp.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.cpp.i
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.s: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.s: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.cpp.s
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.s
 
 # target to generate assembly for a file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.cpp.s:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.cpp.s
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.cpp.s:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.cpp.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.cpp.s
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.o: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.o: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.cpp.o
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.o
 
 # target to build an object file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.cpp.o:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.cpp.o
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.cpp.o:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.cpp.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.cpp.o
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.i: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.i: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.cpp.i
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.i
 
 # target to preprocess a source file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.cpp.i:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.cpp.i
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.cpp.i:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.cpp.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.cpp.i
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.s: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.s: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.cpp.s
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.s
 
 # target to generate assembly for a file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.cpp.s:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.cpp.s
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.cpp.s:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.cpp.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.cpp.s
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.o: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.o: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.cpp.o
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.o
 
 # target to build an object file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.cpp.o:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.cpp.o
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.cpp.o
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.cpp.o:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.cpp.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.cpp.o
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.i: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.i: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.cpp.i
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.i
 
 # target to preprocess a source file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.cpp.i:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.cpp.i
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.cpp.i
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.cpp.i:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.cpp.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.cpp.i
 
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.s: home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.s: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.cpp.s
 
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.s
 
 # target to generate assembly for a file
-home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.cpp.s:
-	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.cpp.s
-.PHONY : home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.cpp.s
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.cpp.s:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.cpp.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.cpp.s
+
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.o: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.cpp.o
+
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.o
+
+# target to build an object file
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.cpp.o:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.cpp.o
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.cpp.o
+
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.i: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.cpp.i
+
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.i
+
+# target to preprocess a source file
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.cpp.i:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.cpp.i
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.cpp.i
+
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.s: home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.cpp.s
+
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.s
+
+# target to generate assembly for a file
+home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.cpp.s:
+	$(MAKE) -f CMakeFiles/pnp.dir/build.make CMakeFiles/pnp.dir/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.cpp.s
+.PHONY : home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.cpp.s
 
 src/ActionProxy.o: src/ActionProxy.cpp.o
 
@@ -667,45 +667,45 @@ help:
 	@echo "... install/strip"
 	@echo "... pnp_test"
 	@echo "... pnp_naoqi"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.o"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.i"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.s"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.o"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.i"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.s"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.o"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.i"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.s"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.o"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.i"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.s"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.o"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.i"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.s"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.o"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.i"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.s"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.o"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.i"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.s"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.o"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.i"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.s"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.o"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.i"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.s"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.o"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.i"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.s"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.o"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.i"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.s"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.o"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.i"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.s"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.o"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.i"
-	@echo "... home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.s"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.o"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.i"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.s"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.o"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.i"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/conditionchecker.s"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.o"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.i"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/connection_observer.s"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.o"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.i"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionParser.s"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.o"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.i"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/parser/ConditionScanner.s"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.o"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.i"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/petrinet.s"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.o"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.i"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action.s"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.o"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.i"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_action_loader_txt.s"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.o"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.i"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executable.s"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.o"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.i"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_executer.s"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.o"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.i"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_instantiators.s"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.o"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.i"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/pnp_plan.s"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.o"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.i"
+	@echo "... home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNP/src/utils.s"
 	@echo "... src/ActionProxy.o"
 	@echo "... src/ActionProxy.i"
 	@echo "... src/ActionProxy.s"

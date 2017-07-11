@@ -2,9 +2,9 @@
 # Do not edit.
 # Do not change location.
  
-set(SRRG_SYSTEM_UTILS_YAML_INCLUDE_DIRS "/home/marc/workspace/SPQReL/worktree/spqrel_navigation/naoqi;/home/marc/workspace/SPQReL/worktree/spqrel_navigation/naoqi/../src;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3" CACHE INTERNAL "" FORCE)
+set(SRRG_SYSTEM_UTILS_YAML_INCLUDE_DIRS "/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/naoqi;/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/naoqi/../src;/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3" CACHE INTERNAL "" FORCE)
  
-set(SRRG_SYSTEM_UTILS_YAML_LIBRARIES "general;/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/sdk/lib/libsrrg_system_utils_yaml.so" CACHE INTERNAL "" FORCE)
+set(SRRG_SYSTEM_UTILS_YAML_LIBRARIES "general;/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/sdk/lib/libsrrg_system_utils_yaml.so" CACHE INTERNAL "" FORCE)
  
 set(SRRG_SYSTEM_UTILS_YAML_TARGET "srrg_system_utils_yaml" CACHE INTERNAL "" FORCE)
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/conditionalplan.h
+/home/iocchi/src/PetriNetPlans/PNPgen/src/conditionalplan.h
 vector
 -
 map
@@ -18,9 +18,9 @@ iostream
 sstream
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnp_translator/condplan_translator.h
+/home/iocchi/src/PetriNetPlans/PNPgen/src/pnp_translator/condplan_translator.h
 ../conditionalplan.h
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/conditionalplan.h
+/home/iocchi/src/PetriNetPlans/PNPgen/src/conditionalplan.h
 fstream
 -
 string
@@ -28,23 +28,23 @@ string
 boost/regex.hpp
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnp_translator/digraph_transl.cpp
+/home/iocchi/src/PetriNetPlans/PNPgen/src/pnp_translator/digraph_transl.cpp
 digraph_transl.h
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnp_translator/digraph_transl.h
+/home/iocchi/src/PetriNetPlans/PNPgen/src/pnp_translator/digraph_transl.h
 boost/algorithm/string.hpp
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnp_translator/digraph_transl.h
+/home/iocchi/src/PetriNetPlans/PNPgen/src/pnp_translator/digraph_transl.h
 condplan_translator.h
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnp_translator/condplan_translator.h
+/home/iocchi/src/PetriNetPlans/PNPgen/src/pnp_translator/condplan_translator.h
 ../pnpgenerator.h
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnpgenerator.h
+/home/iocchi/src/PetriNetPlans/PNPgen/src/pnpgenerator.h
 map
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnpgenerator.cpp
+/home/iocchi/src/PetriNetPlans/PNPgen/src/pnpgenerator.cpp
 pnpgenerator.h
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnpgenerator.h
+/home/iocchi/src/PetriNetPlans/PNPgen/src/pnpgenerator.h
 fstream
 -
 iostream
@@ -60,7 +60,7 @@ boost/regex.hpp
 sstream
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnpgenerator.h
+/home/iocchi/src/PetriNetPlans/PNPgen/src/pnpgenerator.h
 string
 -
 sstream
@@ -72,11 +72,11 @@ stack
 map
 -
 policy.h
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/policy.h
+/home/iocchi/src/PetriNetPlans/PNPgen/src/policy.h
 conditionalplan.h
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/conditionalplan.h
+/home/iocchi/src/PetriNetPlans/PNPgen/src/conditionalplan.h
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/policy.h
+/home/iocchi/src/PetriNetPlans/PNPgen/src/policy.h
 vector
 -
 map

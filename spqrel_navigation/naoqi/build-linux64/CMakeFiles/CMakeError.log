@@ -1,0 +1,550 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d01f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d01f.dir/build.make CMakeFiles/cmTC_9d01f.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d01f.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_9d01f.dir/CheckSymbolExists.c.o   -c /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9d01f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d01f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_9d01f.dir/CheckSymbolExists.c.o  -o cmTC_9d01f -rdynamic 
+CMakeFiles/cmTC_9d01f.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9d01f.dir/build.make:97: recipe for target 'cmTC_9d01f' failed
+make[1]: *** [cmTC_9d01f] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9d01f/fast' failed
+make: *** [cmTC_9d01f/fast] Error 2
+
+File /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5858e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5858e.dir/build.make CMakeFiles/cmTC_5858e.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5858e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5858e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5858e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5858e.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5858e.dir/CheckFunctionExists.c.o  -o cmTC_5858e -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5858e.dir/build.make:97: recipe for target 'cmTC_5858e' failed
+make[1]: *** [cmTC_5858e] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5858e/fast' failed
+make: *** [cmTC_5858e/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97c99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97c99.dir/build.make CMakeFiles/cmTC_97c99.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97c99.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_97c99.dir/CheckSymbolExists.c.o   -c /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_97c99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97c99.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_97c99.dir/CheckSymbolExists.c.o  -o cmTC_97c99 -rdynamic 
+CMakeFiles/cmTC_97c99.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_97c99.dir/build.make:97: recipe for target 'cmTC_97c99' failed
+make[1]: *** [cmTC_97c99] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_97c99/fast' failed
+make: *** [cmTC_97c99/fast] Error 2
+
+File /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d5208/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d5208.dir/build.make CMakeFiles/cmTC_d5208.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5208.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d5208.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d5208
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5208.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_d5208.dir/CheckFunctionExists.c.o  -o cmTC_d5208 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d5208.dir/build.make:97: recipe for target 'cmTC_d5208' failed
+make[1]: *** [cmTC_d5208] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d5208/fast' failed
+make: *** [cmTC_d5208/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1cad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1cad.dir/build.make CMakeFiles/cmTC_b1cad.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1cad.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b1cad.dir/CheckSymbolExists.c.o   -c /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b1cad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1cad.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b1cad.dir/CheckSymbolExists.c.o  -o cmTC_b1cad -rdynamic 
+CMakeFiles/cmTC_b1cad.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b1cad.dir/build.make:97: recipe for target 'cmTC_b1cad' failed
+make[1]: *** [cmTC_b1cad] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b1cad/fast' failed
+make: *** [cmTC_b1cad/fast] Error 2
+
+File /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a19b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a19b.dir/build.make CMakeFiles/cmTC_3a19b.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a19b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3a19b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3a19b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a19b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_3a19b.dir/CheckFunctionExists.c.o  -o cmTC_3a19b -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3a19b.dir/build.make:97: recipe for target 'cmTC_3a19b' failed
+make[1]: *** [cmTC_3a19b] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3a19b/fast' failed
+make: *** [cmTC_3a19b/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2571/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2571.dir/build.make CMakeFiles/cmTC_f2571.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2571.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f2571.dir/CheckSymbolExists.c.o   -c /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f2571
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2571.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f2571.dir/CheckSymbolExists.c.o  -o cmTC_f2571 -rdynamic 
+CMakeFiles/cmTC_f2571.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f2571.dir/build.make:97: recipe for target 'cmTC_f2571' failed
+make[1]: *** [cmTC_f2571] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f2571/fast' failed
+make: *** [cmTC_f2571/fast] Error 2
+
+File /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ae07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ae07.dir/build.make CMakeFiles/cmTC_3ae07.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ae07.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3ae07.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3ae07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ae07.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_3ae07.dir/CheckFunctionExists.c.o  -o cmTC_3ae07 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3ae07.dir/build.make:97: recipe for target 'cmTC_3ae07' failed
+make[1]: *** [cmTC_3ae07] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3ae07/fast' failed
+make: *** [cmTC_3ae07/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77121/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77121.dir/build.make CMakeFiles/cmTC_77121.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77121.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_77121.dir/CheckSymbolExists.c.o   -c /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_77121
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77121.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_77121.dir/CheckSymbolExists.c.o  -o cmTC_77121 -rdynamic 
+CMakeFiles/cmTC_77121.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_77121.dir/build.make:97: recipe for target 'cmTC_77121' failed
+make[1]: *** [cmTC_77121] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_77121/fast' failed
+make: *** [cmTC_77121/fast] Error 2
+
+File /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5630b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5630b.dir/build.make CMakeFiles/cmTC_5630b.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5630b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5630b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5630b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5630b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5630b.dir/CheckFunctionExists.c.o  -o cmTC_5630b -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5630b.dir/build.make:97: recipe for target 'cmTC_5630b' failed
+make[1]: *** [cmTC_5630b] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5630b/fast' failed
+make: *** [cmTC_5630b/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a54cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a54cb.dir/build.make CMakeFiles/cmTC_a54cb.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a54cb.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a54cb.dir/CheckSymbolExists.c.o   -c /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a54cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a54cb.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a54cb.dir/CheckSymbolExists.c.o  -o cmTC_a54cb -rdynamic 
+CMakeFiles/cmTC_a54cb.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a54cb.dir/build.make:97: recipe for target 'cmTC_a54cb' failed
+make[1]: *** [cmTC_a54cb] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a54cb/fast' failed
+make: *** [cmTC_a54cb/fast] Error 2
+
+File /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb48f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb48f.dir/build.make CMakeFiles/cmTC_fb48f.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb48f.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fb48f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fb48f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb48f.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_fb48f.dir/CheckFunctionExists.c.o  -o cmTC_fb48f -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fb48f.dir/build.make:97: recipe for target 'cmTC_fb48f' failed
+make[1]: *** [cmTC_fb48f] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fb48f/fast' failed
+make: *** [cmTC_fb48f/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f164a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f164a.dir/build.make CMakeFiles/cmTC_f164a.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f164a.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f164a.dir/CheckSymbolExists.c.o   -c /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f164a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f164a.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f164a.dir/CheckSymbolExists.c.o  -o cmTC_f164a -rdynamic 
+CMakeFiles/cmTC_f164a.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f164a.dir/build.make:97: recipe for target 'cmTC_f164a' failed
+make[1]: *** [cmTC_f164a] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f164a/fast' failed
+make: *** [cmTC_f164a/fast] Error 2
+
+File /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5bd1b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5bd1b.dir/build.make CMakeFiles/cmTC_5bd1b.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5bd1b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5bd1b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5bd1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bd1b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5bd1b.dir/CheckFunctionExists.c.o  -o cmTC_5bd1b -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5bd1b.dir/build.make:97: recipe for target 'cmTC_5bd1b' failed
+make[1]: *** [cmTC_5bd1b] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5bd1b/fast' failed
+make: *** [cmTC_5bd1b/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dae97/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dae97.dir/build.make CMakeFiles/cmTC_dae97.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dae97.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_dae97.dir/CheckSymbolExists.c.o   -c /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dae97
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dae97.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_dae97.dir/CheckSymbolExists.c.o  -o cmTC_dae97 -rdynamic 
+CMakeFiles/cmTC_dae97.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_dae97.dir/build.make:97: recipe for target 'cmTC_dae97' failed
+make[1]: *** [cmTC_dae97] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dae97/fast' failed
+make: *** [cmTC_dae97/fast] Error 2
+
+File /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6b905/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6b905.dir/build.make CMakeFiles/cmTC_6b905.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b905.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6b905.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6b905
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b905.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_6b905.dir/CheckFunctionExists.c.o  -o cmTC_6b905 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6b905.dir/build.make:97: recipe for target 'cmTC_6b905' failed
+make[1]: *** [cmTC_6b905] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6b905/fast' failed
+make: *** [cmTC_6b905/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56616/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56616.dir/build.make CMakeFiles/cmTC_56616.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56616.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_56616.dir/CheckSymbolExists.c.o   -c /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_56616
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56616.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_56616.dir/CheckSymbolExists.c.o  -o cmTC_56616 -rdynamic 
+CMakeFiles/cmTC_56616.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_56616.dir/build.make:97: recipe for target 'cmTC_56616' failed
+make[1]: *** [cmTC_56616] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_56616/fast' failed
+make: *** [cmTC_56616/fast] Error 2
+
+File /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3bd0d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3bd0d.dir/build.make CMakeFiles/cmTC_3bd0d.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3bd0d.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3bd0d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3bd0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bd0d.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_3bd0d.dir/CheckFunctionExists.c.o  -o cmTC_3bd0d -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3bd0d.dir/build.make:97: recipe for target 'cmTC_3bd0d' failed
+make[1]: *** [cmTC_3bd0d] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3bd0d/fast' failed
+make: *** [cmTC_3bd0d/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c50bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c50bb.dir/build.make CMakeFiles/cmTC_c50bb.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c50bb.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_c50bb.dir/CheckSymbolExists.c.o   -c /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c50bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c50bb.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c50bb.dir/CheckSymbolExists.c.o  -o cmTC_c50bb -rdynamic 
+CMakeFiles/cmTC_c50bb.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c50bb.dir/build.make:97: recipe for target 'cmTC_c50bb' failed
+make[1]: *** [cmTC_c50bb] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c50bb/fast' failed
+make: *** [cmTC_c50bb/fast] Error 2
+
+File /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce43b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce43b.dir/build.make CMakeFiles/cmTC_ce43b.dir/build
+make[1]: Entering directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce43b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ce43b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ce43b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce43b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ce43b.dir/CheckFunctionExists.c.o  -o cmTC_ce43b -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ce43b.dir/build.make:97: recipe for target 'cmTC_ce43b' failed
+make[1]: *** [cmTC_ce43b] Error 1
+make[1]: Leaving directory '/home/iocchi/src/spqrel_navigation/naoqi/build-linux64/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ce43b/fast' failed
+make: *** [cmTC_ce43b/fast] Error 2
+
+

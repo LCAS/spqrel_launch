@@ -1,4 +1,4 @@
-# Install script for directory: /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/algo
+# Install script for directory: /home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/algo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

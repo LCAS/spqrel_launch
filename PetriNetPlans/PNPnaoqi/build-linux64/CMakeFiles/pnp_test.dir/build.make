@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi
+CMAKE_SOURCE_DIR = /home/iocchi/src/PetriNetPlans/PNPnaoqi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64
+CMAKE_BINARY_DIR = /home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pnp_test.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/pnp_test.dir/flags.make
 
 CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o: CMakeFiles/pnp_test.dir/flags.make
 CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o: ../src/pnp_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o -c /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o -c /home/iocchi/src/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp
 
 CMakeFiles/pnp_test.dir/src/pnp_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pnp_test.dir/src/pnp_test.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp > CMakeFiles/pnp_test.dir/src/pnp_test.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iocchi/src/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp > CMakeFiles/pnp_test.dir/src/pnp_test.cpp.i
 
 CMakeFiles/pnp_test.dir/src/pnp_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pnp_test.dir/src/pnp_test.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp -o CMakeFiles/pnp_test.dir/src/pnp_test.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iocchi/src/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp -o CMakeFiles/pnp_test.dir/src/pnp_test.cpp.s
 
 CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o.provides.build: CMakeFiles/pnp_test.d
 
 CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o: CMakeFiles/pnp_test.dir/flags.make
 CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o: ../src/ActionProxy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o -c /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o -c /home/iocchi/src/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp
 
 CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp > CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iocchi/src/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp > CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.i
 
 CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp -o CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iocchi/src/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp -o CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.s
 
 CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o.requires:
 
@@ -119,7 +119,7 @@ sdk/bin/pnp_test: CMakeFiles/pnp_test.dir/build.make
 sdk/bin/pnp_test: sdk/lib/libpnp.so
 sdk/bin/pnp_test: /usr/lib/x86_64-linux-gnu/libxml2.so
 sdk/bin/pnp_test: CMakeFiles/pnp_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sdk/bin/pnp_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sdk/bin/pnp_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pnp_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/pnp_test.dir/clean:
 .PHONY : CMakeFiles/pnp_test.dir/clean
 
 CMakeFiles/pnp_test.dir/depend:
-	cd /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64 /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64 /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles/pnp_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iocchi/src/PetriNetPlans/PNPnaoqi /home/iocchi/src/PetriNetPlans/PNPnaoqi /home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64 /home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64 /home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles/pnp_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pnp_test.dir/depend
 

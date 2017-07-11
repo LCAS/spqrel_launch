@@ -1,0 +1,153 @@
+cmake_minimum_required(VERSION 2.8)
+project(PNPpepper)
+
+find_package(qibuild)
+
+message("Toolchain file: ${CMAKE_TOOLCHAIN_FILE}")
+
+message("current source dir: ${CMAKE_CURRENT_SOURCE_DIR}")
+
+
+
+# Required libraries
+
+
+set(NAOQI_DIR "/opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/")
+
+if ( CMAKE_TOOLCHAIN_FILE MATCHES "pepper" )
+	message("Pepper toolchain")
+	set(LIB_BUILD_PEPPER "-L${CMAKE_CURRENT_SOURCE_DIR}/build-pepper")
+	set(CTC_NAOQI_DIR "/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/")
+	find_package(boost REQUIRED)
+	find_package(xml2 REQUIRED)
+	set(XML2_INCLUDE_DIR "${CTC_NAOQI_DIR}/xml2/include/libxml2/")	
+	set(XML2_LIBRARIES "-L${CTC_NAOQI_DIR}/xml2/lib -L${CTC_NAOQI_DIR}/zlib/lib -L${CTC_NAOQI_DIR}/xz_utils/lib")
+	include_directories(${XML2_INCLUDE_DIR})
+	message("xml2: ${XML2_INCLUDE_DIR} ${XML2_LIBRARIES}")
+	
+	set(LIB_NAOQI "-L${CTC_NAOQI_DIR}/libnaoqi/lib -L${CTC_NAOQI_DIR}/libnaoqi/lib/naoqi")
+
+	#set(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH};/opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/share/cmake/" )
+
+else()
+	message("Linux toolchain")
+	find_package(Boost REQUIRED)
+	find_package(xml2 REQUIRED)
+	include_directories(${XML2_INCLUDE_DIR})
+	message("libxml2: ${XML2_INCLUDE_DIR} ${XML2_LIBRARIES}")
+	set(LIB_NAOQI "-L${NAOQI_DIR}/lib -L${NAOQI_DIR}/lib/naoqi")
+
+	#set(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH};/opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/share/cmake/" )
+endif()
+
+message("Boost: ${Boost_INCLUDE_DIR}")
+
+message("naoqi: ${LIB_NAOQI}")
+
+# Setting include and lib directories
+
+
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+include_directories(${Boost_INCLUDE_DIR})
+
+include_directories(${NAOQI_DIR}/include)
+
+set(LIBD ${LIBXML2_LIBRARIES} ${LIB_NAOQI} ${LIB_BUILD_PEPPER})
+
+
+# Source files
+
+SET(PNP_SRC src/conditionchecker.cpp
+	src/petrinet.cpp
+	src/pnp_action.cpp
+	src/pnp_action_loader_txt.cpp
+	src/pnp_executable.cpp
+	src/pnp_executer.cpp
+	src/pnp_instantiators.cpp
+	src/pnp_plan.cpp
+	src/utils.cpp
+    src/connection_observer.cpp
+	src/basic_plan/xml_plan_instantiator.cpp
+	src/parser/ConditionParser.cpp
+	src/parser/ConditionScanner.cpp 
+)
+
+set(TEST_SRC src/test_pnp.cpp src/ActionProxy.cpp )
+
+set(CMAKE_CXX_FLAGS "-std=gnu++11 -Wdeprecated-declarations")
+
+#set(CMAKE_LINK_FLAGS "-rpath ")
+
+# Libraries and executables
+
+# libpnp.so
+
+#ADD_LIBRARY(pnp SHARED ${PNP_SRC})
+#target_link_libraries(pnp ${LIBD})
+
+# test_pnp
+
+#add_executable(test_pnp ${TEST_SRC})
+#qi_create_bin(test_pnp ${TEST_SRC})
+#add_dependencies(test_pnp pnp)
+
+#qi_use_lib(test_pnp boost boost_system xml2 QICORE QI )
+
+#target_link_libraries(test_pnp ${LIBD} pnp xml2)
+
+#target_link_libraries(test_pnp ${LIBD} pnp libxml2.so libz.so liblzma.so 
+#	boost_filesystem boost_system boost_thread boost_program_options boost_locale
+#	libalbase.so liballogger.so libalmemory.so libqi.so libqicore.so)
+
+####
+
+
+message("${CMAKE_PREFIX_PATH}")
+
+find_package(qimodule)
+
+#find_package(xml2)
+
+#find_package(qi)
+#find_package(qicore)
+#find_package(qicore2)
+
+
+#find_package(alcommon)
+
+
+
+include_directories( include )
+
+#qi_create_module(
+#  naoqi_pnp_module
+#  ${TEST_SRC}
+#  SHARED
+#)
+#qi_stage_lib( naoqi_pnp_module )
+
+qi_create_lib(
+  naoqi_pnp
+  SHARED
+  ${PNP_SRC}
+)
+qi_use_lib( naoqi_pnp xml2 )
+qi_stage_lib( naoqi_pnp )
+
+#target_link_libraries(
+#  naoqi_pnp_module
+#  naoqi_pnp
+#)
+
+qi_create_bin( naoqi_pnp_test ${TEST_SRC})
+
+qi_use_lib(
+  naoqi_pnp_test
+  naoqi_pnp ALCOMMON ALPROXIES ALTHREAD )
+
+#target_link_libraries(
+#  naoqi_pnp_test
+#  naoqi_pnp qi qicore
+#)
+
+

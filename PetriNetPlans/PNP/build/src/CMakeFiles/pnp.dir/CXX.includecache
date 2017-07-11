@@ -374,7 +374,7 @@ iostream
 rdkcore/logging/logging.h
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/basic_plan/xml_plan_instantiator.cpp
 pnp/basic_plan/xml_plan_instantiator.h
 -
 pnp/utils.h
@@ -394,7 +394,7 @@ libxml/xmlmemory.h
 libxml/parser.h
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/conditionchecker.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/conditionchecker.cpp
 pnp/conditionchecker.h
 -
 pnp/utils.h
@@ -404,7 +404,7 @@ pnp/parser/ConditionScanner.h
 pnp/parser/ConditionParser.hpp
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/connection_observer.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/connection_observer.cpp
 cstdio
 -
 iostream
@@ -424,17 +424,17 @@ netinet/in.h
 pnp/connection_observer.h
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/ExpPolicy.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/ExpPolicy.cpp
 pnp/learning_plan/ExpPolicy.h
 -
 algorithm
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/Learner.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/Learner.cpp
 pnp/learning_plan/Learner.h
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/Marking.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/Marking.cpp
 pnp/learning_plan/Marking.h
 -
 algorithm
@@ -444,17 +444,17 @@ iostream
 iterator
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/RewardCollector.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/RewardCollector.cpp
 pnp/learning_plan/RewardCollector.h
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/algo/AlphaScheduler.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/algo/AlphaScheduler.cpp
 pnp/learning_plan/algo/AlphaScheduler.h
 -
 iostream
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/algo/BasicController.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/algo/BasicController.cpp
 pnp/learning_plan/algo/BasicController.h
 -
 pnp/learning_plan/ExpPolicy.h
@@ -462,7 +462,7 @@ pnp/learning_plan/ExpPolicy.h
 pnp/learning_plan/Learner.h
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/algo/DelayedQLearning.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/algo/DelayedQLearning.cpp
 pnp/learning_plan/algo/DelayedQLearning.h
 -
 pnp/learning_plan/algo/TDLambda.h
@@ -474,7 +474,7 @@ limits
 iostream
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/algo/LoggingController.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/algo/LoggingController.cpp
 pnp/learning_plan/algo/LoggingController.h
 -
 pnp/learning_plan/Learner.h
@@ -484,7 +484,7 @@ boost/bind.hpp
 algorithm
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/algo/MCESP_SAA.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/algo/MCESP_SAA.cpp
 pnp/learning_plan/algo/MCESP_SAA.h
 -
 pnp/learning_plan/exp/Exploit.h
@@ -500,7 +500,7 @@ iterator
 limits
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/algo/MonteCarlo.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/algo/MonteCarlo.cpp
 pnp/learning_plan/algo/MonteCarlo.h
 -
 iostream
@@ -508,7 +508,7 @@ iostream
 cmath
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/algo/PlaceLogger.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/algo/PlaceLogger.cpp
 pnp/learning_plan/algo/LoggingController.h
 -
 pnp/learning_plan/Learner.h
@@ -518,7 +518,7 @@ iostream
 fstream
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/algo/QLearning.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/algo/QLearning.cpp
 pnp/learning_plan/algo/QLearning.h
 -
 pnp/learning_plan/algo/TDLambda.h
@@ -532,7 +532,7 @@ algorithm
 cmath
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/algo/TDLambda.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/algo/TDLambda.cpp
 pnp/learning_plan/algo/TDLambda.h
 -
 iostream
@@ -540,13 +540,13 @@ iostream
 cmath
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/exp/EGreedy.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/exp/EGreedy.cpp
 pnp/learning_plan/exp/EGreedy.h
 -
 pnp/learning_plan/exp/Exploit.h
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/exp/Exploit.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/exp/Exploit.cpp
 pnp/learning_plan/exp/Exploit.h
 -
 boost/bind.hpp
@@ -554,7 +554,7 @@ boost/bind.hpp
 iterator
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/exp/ExploitWithHysteresis.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/exp/ExploitWithHysteresis.cpp
 pnp/learning_plan/exp/ExploitWithHysteresis.h
 -
 boost/bind.hpp
@@ -564,7 +564,7 @@ algorithm
 cmath
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/exp/SoftMax.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/exp/SoftMax.cpp
 pnp/learning_plan/exp/SoftMax.h
 -
 boost/bind.hpp
@@ -580,7 +580,7 @@ algorithm
 stdlib.h
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/learnPlan.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/learnPlan.cpp
 pnp/learning_plan/learnPlan.h
 -
 boost/mem_fn.hpp
@@ -592,15 +592,15 @@ algorithm
 cstdlib
 -
 learnPlanFunctors.h
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/learnPlanFunctors.h
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/learnPlanFunctors.h
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/learnPlanFunctors.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/learnPlanFunctors.cpp
 learnPlanFunctors.h
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/learnPlanFunctors.h
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/learnPlanFunctors.h
 algorithm
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/learning_plan/learnPlanFunctors.h
+/home/iocchi/src/PetriNetPlans/PNP/src/learning_plan/learnPlanFunctors.h
 set
 -
 vector
@@ -614,7 +614,7 @@ pnp/pnpfwd.h
 pnp/learning_plan/learnPlan.h
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionParser.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/parser/ConditionParser.cpp
 pnp/parser/ConditionParser.hpp
 -
 string
@@ -626,7 +626,7 @@ pnp/conditionchecker.h
 libintl.h
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/parser/ConditionScanner.cpp
 inttypes.h
 -
 iostream
@@ -652,11 +652,11 @@ pnp/parser/ConditionParser.hpp
 unistd.h
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/petrinet.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/petrinet.cpp
 pnp/petrinet.h
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/pnp_action.cpp
 pnp/pnp_action.h
 -
 pnp/utils.h
@@ -664,33 +664,33 @@ pnp/utils.h
 cstdlib
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/pnp_action_loader_txt.cpp
 pnp/pnp_action_loader_txt.h
 -
 pnp/utils.h
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executable.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/pnp_executable.cpp
 pnp/pnp_executable.h
 -
 pnp/utils.h
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_executer.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/pnp_executer.cpp
 pnp/pnp_executer.h
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_instantiators.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/pnp_instantiators.cpp
 pnp/pnp_instantiators.h
 -
 pnp/pnp_action.h
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/pnp_plan.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/pnp_plan.cpp
 pnp/pnp_plan.h
 -
 
-/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/utils.cpp
+/home/iocchi/src/PetriNetPlans/PNP/src/utils.cpp
 pnp/utils.h
 -
 cstdlib

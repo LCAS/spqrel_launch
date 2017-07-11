@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen
+CMAKE_SOURCE_DIR = /home/iocchi/src/PetriNetPlans/PNPgen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build
+CMAKE_BINARY_DIR = /home/iocchi/src/PetriNetPlans/PNPgen/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pnpgen.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/pnpgen.dir/flags.make
 
 CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.o: CMakeFiles/pnpgen.dir/flags.make
 CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.o: ../src/pnpgenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.o -c /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnpgenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.o -c /home/iocchi/src/PetriNetPlans/PNPgen/src/pnpgenerator.cpp
 
 CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnpgenerator.cpp > CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iocchi/src/PetriNetPlans/PNPgen/src/pnpgenerator.cpp > CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.i
 
 CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnpgenerator.cpp -o CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iocchi/src/PetriNetPlans/PNPgen/src/pnpgenerator.cpp -o CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.s
 
 CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.o.provides.build: CMakeFiles/pnpgen.d
 
 CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.o: CMakeFiles/pnpgen.dir/flags.make
 CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.o: ../src/pnp_translator/digraph_transl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.o -c /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnp_translator/digraph_transl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.o -c /home/iocchi/src/PetriNetPlans/PNPgen/src/pnp_translator/digraph_transl.cpp
 
 CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnp_translator/digraph_transl.cpp > CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iocchi/src/PetriNetPlans/PNPgen/src/pnp_translator/digraph_transl.cpp > CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.i
 
 CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnp_translator/digraph_transl.cpp -o CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iocchi/src/PetriNetPlans/PNPgen/src/pnp_translator/digraph_transl.cpp -o CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.s
 
 CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.o.requires:
 
@@ -117,7 +117,7 @@ pnpgen_EXTERNAL_OBJECTS =
 ../lib/libpnpgen.so: CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.o
 ../lib/libpnpgen.so: CMakeFiles/pnpgen.dir/build.make
 ../lib/libpnpgen.so: CMakeFiles/pnpgen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library ../lib/libpnpgen.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library ../lib/libpnpgen.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pnpgen.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/pnpgen.dir/clean:
 .PHONY : CMakeFiles/pnpgen.dir/clean
 
 CMakeFiles/pnpgen.dir/depend:
-	cd /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles/pnpgen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/iocchi/src/PetriNetPlans/PNPgen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iocchi/src/PetriNetPlans/PNPgen /home/iocchi/src/PetriNetPlans/PNPgen /home/iocchi/src/PetriNetPlans/PNPgen/build /home/iocchi/src/PetriNetPlans/PNPgen/build /home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles/pnpgen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pnpgen.dir/depend
 

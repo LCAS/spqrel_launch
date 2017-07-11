@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/NaoqiActionProxy.cpp" "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.o"
-  "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/pnp_naoqi.cpp" "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.o"
+  "/home/iocchi/src/PetriNetPlans/PNPnaoqi/src/NaoqiActionProxy.cpp" "/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.o"
+  "/home/iocchi/src/PetriNetPlans/PNPnaoqi/src/pnp_naoqi.cpp" "/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,8 +15,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "/usr/include/libxml2"
   "../"
-  "/home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/include"
-  "/home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/include/boost"
+  "/opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/include"
+  "/opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/include/boost"
   )
 
 # Targets to which this target links.
