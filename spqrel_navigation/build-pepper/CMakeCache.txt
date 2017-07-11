@@ -198,8 +198,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 CMAKE_STRIP:FILEPATH=/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../bin/i686-aldebaran-linux-gnu-strip
 
-//No help, variable specified on the command line.
-CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/home/marc/.local/share/qi/toolchains/pepper/toolchain-pepper.cmake
+//The CMake toolchain file
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/marc/.local/share/qi/toolchains/pepper/toolchain-pepper.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -505,6 +505,8 @@ BZIP2_INCLUDE_DIRS:INTERNAL=/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.7
 BZIP2_LIBRARIES:INTERNAL=/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/bzip2/lib/libbz2.so.1
 BZIP2_PACKAGE_FOUND:INTERNAL=TRUE
 BZIP2_SEARCHED:INTERNAL=TRUE
+//ADVANCED property for variable: CMAKE_AR
+CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
 CMAKE_CACHEFILE_DIR:INTERNAL=/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper
 //Major version of cmake used to create the current loaded cache
@@ -523,7 +525,7 @@ CMAKE_CPACK_COMMAND:INTERNAL=/usr/bin/cpack
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/bin/ctest
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
-CMAKE_CXX_FLAGS:INTERNAL= -DI_AM_A_ROBOT --sysroot /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -m32 -march=i686 -mssse3 -mfpmath=sse -finline-functions-called-once -finline-small-functions -falign-functions -falign-labels -falign-loops -falign-jumps -freorder-blocks -freorder-blocks-and-partition -freorder-functions -faggressive-loop-optimizations -ftree-vectorize -fpredictive-commoning -std=gnu++11
+CMAKE_CXX_FLAGS:INTERNAL= -DI_AM_A_ROBOT --sysroot /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -m32 -march=i686 -mssse3 -mfpmath=sse -finline-functions-called-once -finline-small-functions -falign-functions -falign-labels -falign-loops -falign-jumps -freorder-blocks -freorder-blocks-and-partition -freorder-functions -faggressive-loop-optimizations -ftree-vectorize -fpredictive-commoning -DI_AM_A_ROBOT --sysroot /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -m32 -march=i686 -mssse3 -mfpmath=sse -finline-functions-called-once -finline-small-functions -falign-functions -falign-labels -falign-loops -falign-jumps -freorder-blocks -freorder-blocks-and-partition -freorder-functions -faggressive-loop-optimizations -ftree-vectorize -fpredictive-commoning -std=gnu++11
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
 CMAKE_CXX_FLAGS_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_MINSIZEREL
@@ -534,7 +536,7 @@ CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS
 CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
-CMAKE_C_FLAGS:INTERNAL= -DI_AM_A_ROBOT --sysroot /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -m32 -march=i686 -mssse3 -mfpmath=sse -finline-functions-called-once -finline-small-functions -falign-functions -falign-labels -falign-loops -falign-jumps -freorder-blocks -freorder-blocks-and-partition -freorder-functions -faggressive-loop-optimizations -ftree-vectorize -fpredictive-commoning
+CMAKE_C_FLAGS:INTERNAL= -DI_AM_A_ROBOT --sysroot /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -m32 -march=i686 -mssse3 -mfpmath=sse -finline-functions-called-once -finline-small-functions -falign-functions -falign-labels -falign-loops -falign-jumps -freorder-blocks -freorder-blocks-and-partition -freorder-functions -faggressive-loop-optimizations -ftree-vectorize -fpredictive-commoning -DI_AM_A_ROBOT --sysroot /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -m32 -march=i686 -mssse3 -mfpmath=sse -finline-functions-called-once -finline-small-functions -falign-functions -falign-labels -falign-loops -falign-jumps -freorder-blocks -freorder-blocks-and-partition -freorder-functions -faggressive-loop-optimizations -ftree-vectorize -fpredictive-commoning
 //ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
 CMAKE_C_FLAGS_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_MINSIZEREL
@@ -560,7 +562,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
-CMAKE_FIND_ROOT_PATH:INTERNAL=/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot
+CMAKE_FIND_ROOT_PATH:INTERNAL=/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot
 CMAKE_FRAMEWORK_PATH:INTERNAL=
 //Name of generator.
 CMAKE_GENERATOR:INTERNAL=Unix Makefiles
@@ -574,6 +576,8 @@ CMAKE_HOME_DIRECTORY:INTERNAL=/home/marc/workspace/SPQReL/worktree/spqrel_naviga
 CMAKE_INSTALL_PREFIX:INTERNAL=/
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
+//ADVANCED property for variable: CMAKE_LINKER
+CMAKE_LINKER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MAKE_PROGRAM
 CMAKE_MAKE_PROGRAM-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
@@ -588,9 +592,17 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_MODULE_PATH:INTERNAL=/home/marc/.local/share/cmake;/home/marc/.local/share/cmake/qibuild/..
+//ADVANCED property for variable: CMAKE_NM
+CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
 CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+//ADVANCED property for variable: CMAKE_OBJCOPY
+CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_OBJDUMP
+CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
 CMAKE_PREFIX_PATH:INTERNAL=/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/sdk;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/acl;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/alsa;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/archive;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/attr;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/avahi;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/bfl;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/boost;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/bzip2;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/c_ares;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/cgos;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/chunkware_simple_dynamics;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/console_bridge;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/curl;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/dbus-1;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/dbus-glib-1;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/dl;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/ffi;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/ffmpeg;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/flac;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/fuse;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/gdbm;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/glib2;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/gstreamer;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/gstreamer-farsight;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/gtest;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/iconv;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/icu;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/idn;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/jpeg;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/json-c;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libalmath;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libalmathinternal;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libasyncns;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libevent;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libftdi1;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/liblttng_ust;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libnaoqi;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libqi;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libqi-capi;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libtheora;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libtool;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/liburcu;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/lttng_tools;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/lz4;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/octomap;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/ogg;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/opencore-amr;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/opencv2;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/openni2;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/openssl;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/opus;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/pam;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/pcre;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/png;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/pthread;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/pulseaudio;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/python;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/qiprobes;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/qt;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/rosbag;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/rt;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/samplerate;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/sndfile;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/soprano;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/soundtouch;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/speex;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/sqlite3;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/systemd;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/tbb;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/tcp-wrappers;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/telepathy-farsight;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/telepathy-glib;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/tiff;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/tinyxml;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/trousers;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/urg;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/usb_1;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/v4l;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/vo-aacenc;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/vo-amrwbenc;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/vorbis;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/xml2;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/xz_utils;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/zbar;/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/zlib;/home/marc/.local/share/cmake/qibuild/modules/
+//ADVANCED property for variable: CMAKE_RANLIB
+CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //Path to CMake installation.
 CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.5
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
@@ -618,6 +630,10 @@ CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_STRIP
+CMAKE_STRIP-ADVANCED:INTERNAL=1
+//uname command
+CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 DBUS-1_DEPENDS:INTERNAL=PTHREAD;RT
