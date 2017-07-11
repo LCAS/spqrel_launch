@@ -8,7 +8,7 @@ PNMLS=$(PLANS:.plan=.pnml)
 # usually, we should have only "pepper" and "linux64", as described at https://sites.google.com/a/dis.uniroma1.it/peppino/software-setup
 TOOLCHAIN?=pepper
 
-AUX_DIRS=scripts actions plans maps
+AUX_DIRS=scripts actions plans maps setup.bash
 
 # path to the pnp_translator
 PNPTRANS?=$(shell readlink -f ../PetriNetPlans/PNPgen/bin/pnpgen_translator)
