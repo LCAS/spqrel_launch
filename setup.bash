@@ -20,6 +20,14 @@ export PEPPER_IP=localhost
 alias shutdown-tmux="tmux list-panes -s -F \"#{pane_pid} #{pane_current_command}\" | grep -v tmux | awk \"{print \\\$1}\" | xargs kill"
 alias kill-tmux="tmux list-panes -s -F \"#{pane_pid} #{pane_current_command}\" | grep -v tmux | awk \"{print \\\$1}\" | xargs kill -9"
 
+# find all python dirs:
+PYDIRS=`find "$SPQREL_HOME" -name "*.py" | xargs -n 1 dirname | sort -u | xargs -n 1 -- readlink -f | tr "\n" ":"`
+
+export PYTHONPATH=${PYTHONPATH}:${PYDIRS}
+
+
+
+
 echo "SPQREL_HOME=$SPQREL_HOME"
 echo "PEPPER_IP=$PEPPER_IP"
 echo "PATH=$PATH"
