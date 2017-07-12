@@ -9,12 +9,12 @@ tmux -2 new-session -d -s $SESSION
 # Setup a window for tailing log files
 #tmux new-window -t $SESSION:0 -n 'pepper core'
 tmux new-window -t $SESSION:1 -n 'naoqi-bin'
+tmux new-window -t $SESSION:7 -n 'plans'
 tmux new-window -t $SESSION:2 -n 'navigation'
 tmux new-window -t $SESSION:3 -n 'speech'
-tmux new-window -t $SESSION:4 -n 'objects'
-tmux new-window -t $SESSION:5 -n 'people'
-tmux new-window -t $SESSION:6 -n 'tablet'
-tmux new-window -t $SESSION:7 -n 'plans'
+#tmux new-window -t $SESSION:4 -n 'objects'
+#tmux new-window -t $SESSION:5 -n 'people'
+#tmux new-window -t $SESSION:6 -n 'tablet'
 
 
 tmux select-window -t $SESSION:0

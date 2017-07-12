@@ -26,8 +26,10 @@ def actionThread_exec (params):
 
     url = "http://198.18.0.1/apps/spqrel/"+params+".html"
     print "Tablet showing: "+url
-    tablet_service.showWebview(url)
+#    tablet_service.showWebview(url)
 #    tablet_service.showWebview("http://www.google.it/")
+
+    tablet_service.showWebview("http://35.161.166.53:9000/")
 
     # action init
     time.sleep(0.5)
