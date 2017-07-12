@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SESSION="${USER}-SPQReL"
-SPQREL_PREFIX="${SPQREL_PREFIX:-$HOME/spqrel}"
+SPQREL_PREFIX="${SPQREL_PREFIX:-$HOME/spqrel_launch}"
 
 MAP="$SPQREL_PREFIX/maps/robolabINB1004/robolabINB1004.yaml"
 
