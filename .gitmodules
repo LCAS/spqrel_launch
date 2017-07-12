@@ -1,0 +1,3 @@
+[submodule "worktree/spqrel_tools"]
+	path = worktree/spqrel_tools
+	url = git@github.com:LCAS/spqrel_tools.git
