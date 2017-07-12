@@ -1,9 +1,0 @@
-/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles/install.dir
-/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles/list_install_components.dir
-/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles/rebuild_cache.dir
-/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles/edit_cache.dir
-/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles/pnp.dir
-/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles/install/local.dir
-/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles/install/strip.dir
-/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles/pnp_test.dir
-/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles/pnp_naoqi.dir

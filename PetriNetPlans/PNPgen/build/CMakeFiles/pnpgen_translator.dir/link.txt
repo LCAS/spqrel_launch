@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=gnu++11   CMakeFiles/pnpgen_translator.dir/src/pnpgen_condplan_translator.cpp.o  -o ../bin/pnpgen_translator -rdynamic ../lib/libpnpgen.so -lboost_regex -Wl,-rpath,/home/iocchi/src/PetriNetPlans/PNPgen/lib: 
