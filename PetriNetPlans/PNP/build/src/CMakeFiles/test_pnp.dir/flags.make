@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/../include -I/usr/include/libxml2 
+CXX_INCLUDES = -I/home/iocchi/src/PetriNetPlans/PNP/src/../include -I/usr/include/libxml2 
 

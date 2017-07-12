@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marc/workspace/SPQReL/worktree/spqrel_navigation
+CMAKE_SOURCE_DIR = /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64
+CMAKE_BINARY_DIR = /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -88,17 +88,6 @@ install/local: preinstall
 install/local/fast: install/local
 
 .PHONY : install/local/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
 
 # Special rule for the target install
 install: preinstall
@@ -124,14 +113,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/CMakeFiles /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi/naoqi_planner/CMakeFiles/progress.marks
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/CMakeFiles 0
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/CMakeFiles /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/naoqi/naoqi_planner/CMakeFiles/progress.marks
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/clean
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +130,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/preinstall
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/preinstall
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/rule:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/rule
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/rule
 .PHONY : naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/rule
 
 # Convenience name for target.
@@ -166,12 +155,17 @@ naoqi_planner_library: naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/
 
 # fast build rule for target.
 naoqi_planner_library/fast:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build
 .PHONY : naoqi_planner_library/fast
+
+# Manual pre-install relink rule for target.
+naoqi_planner_library/preinstall:
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/preinstall
+.PHONY : naoqi_planner_library/preinstall
 
 # Convenience name for target.
 naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/rule:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/rule
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/rule
 .PHONY : naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/rule
 
 # Convenience name for target.
@@ -181,12 +175,17 @@ pepper_planner_gui: naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/rule
 
 # fast build rule for target.
 pepper_planner_gui/fast:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/build
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/build
 .PHONY : pepper_planner_gui/fast
+
+# Manual pre-install relink rule for target.
+pepper_planner_gui/preinstall:
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/preinstall
+.PHONY : pepper_planner_gui/preinstall
 
 # Convenience name for target.
 naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/rule:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/rule
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/rule
 .PHONY : naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/rule
 
 # Convenience name for target.
@@ -196,12 +195,17 @@ naoqi_planner_gui_library: naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_libr
 
 # fast build rule for target.
 naoqi_planner_gui_library/fast:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/build
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/build
 .PHONY : naoqi_planner_gui_library/fast
+
+# Manual pre-install relink rule for target.
+naoqi_planner_gui_library/preinstall:
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/preinstall
+.PHONY : naoqi_planner_gui_library/preinstall
 
 # Convenience name for target.
 naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/rule:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/rule
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/rule
 .PHONY : naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/rule
 
 # Convenience name for target.
@@ -211,8 +215,13 @@ pepper_planner: naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/rule
 
 # fast build rule for target.
 pepper_planner/fast:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/build
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/build
 .PHONY : pepper_planner/fast
+
+# Manual pre-install relink rule for target.
+pepper_planner/preinstall:
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/preinstall
+.PHONY : pepper_planner/preinstall
 
 dynamic_map.o: dynamic_map.cpp.o
 
@@ -220,7 +229,7 @@ dynamic_map.o: dynamic_map.cpp.o
 
 # target to build an object file
 dynamic_map.cpp.o:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/dynamic_map.cpp.o
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/dynamic_map.cpp.o
 .PHONY : dynamic_map.cpp.o
 
 dynamic_map.i: dynamic_map.cpp.i
@@ -229,7 +238,7 @@ dynamic_map.i: dynamic_map.cpp.i
 
 # target to preprocess a source file
 dynamic_map.cpp.i:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/dynamic_map.cpp.i
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/dynamic_map.cpp.i
 .PHONY : dynamic_map.cpp.i
 
 dynamic_map.s: dynamic_map.cpp.s
@@ -238,7 +247,7 @@ dynamic_map.s: dynamic_map.cpp.s
 
 # target to generate assembly for a file
 dynamic_map.cpp.s:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/dynamic_map.cpp.s
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/dynamic_map.cpp.s
 .PHONY : dynamic_map.cpp.s
 
 naoqi_planner.o: naoqi_planner.cpp.o
@@ -247,7 +256,7 @@ naoqi_planner.o: naoqi_planner.cpp.o
 
 # target to build an object file
 naoqi_planner.cpp.o:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/naoqi_planner.cpp.o
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/naoqi_planner.cpp.o
 .PHONY : naoqi_planner.cpp.o
 
 naoqi_planner.i: naoqi_planner.cpp.i
@@ -256,7 +265,7 @@ naoqi_planner.i: naoqi_planner.cpp.i
 
 # target to preprocess a source file
 naoqi_planner.cpp.i:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/naoqi_planner.cpp.i
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/naoqi_planner.cpp.i
 .PHONY : naoqi_planner.cpp.i
 
 naoqi_planner.s: naoqi_planner.cpp.s
@@ -265,7 +274,7 @@ naoqi_planner.s: naoqi_planner.cpp.s
 
 # target to generate assembly for a file
 naoqi_planner.cpp.s:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/naoqi_planner.cpp.s
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/naoqi_planner.cpp.s
 .PHONY : naoqi_planner.cpp.s
 
 naoqi_planner_gui.o: naoqi_planner_gui.cpp.o
@@ -274,7 +283,7 @@ naoqi_planner_gui.o: naoqi_planner_gui.cpp.o
 
 # target to build an object file
 naoqi_planner_gui.cpp.o:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/naoqi_planner_gui.cpp.o
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/naoqi_planner_gui.cpp.o
 .PHONY : naoqi_planner_gui.cpp.o
 
 naoqi_planner_gui.i: naoqi_planner_gui.cpp.i
@@ -283,7 +292,7 @@ naoqi_planner_gui.i: naoqi_planner_gui.cpp.i
 
 # target to preprocess a source file
 naoqi_planner_gui.cpp.i:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/naoqi_planner_gui.cpp.i
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/naoqi_planner_gui.cpp.i
 .PHONY : naoqi_planner_gui.cpp.i
 
 naoqi_planner_gui.s: naoqi_planner_gui.cpp.s
@@ -292,7 +301,7 @@ naoqi_planner_gui.s: naoqi_planner_gui.cpp.s
 
 # target to generate assembly for a file
 naoqi_planner_gui.cpp.s:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/naoqi_planner_gui.cpp.s
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/naoqi_planner_gui.cpp.s
 .PHONY : naoqi_planner_gui.cpp.s
 
 pepper_planner.o: pepper_planner.cpp.o
@@ -301,7 +310,7 @@ pepper_planner.o: pepper_planner.cpp.o
 
 # target to build an object file
 pepper_planner.cpp.o:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/pepper_planner.cpp.o
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/pepper_planner.cpp.o
 .PHONY : pepper_planner.cpp.o
 
 pepper_planner.i: pepper_planner.cpp.i
@@ -310,7 +319,7 @@ pepper_planner.i: pepper_planner.cpp.i
 
 # target to preprocess a source file
 pepper_planner.cpp.i:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/pepper_planner.cpp.i
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/pepper_planner.cpp.i
 .PHONY : pepper_planner.cpp.i
 
 pepper_planner.s: pepper_planner.cpp.s
@@ -319,7 +328,7 @@ pepper_planner.s: pepper_planner.cpp.s
 
 # target to generate assembly for a file
 pepper_planner.cpp.s:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/pepper_planner.cpp.s
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/pepper_planner.cpp.s
 .PHONY : pepper_planner.cpp.s
 
 pepper_planner_gui.o: pepper_planner_gui.cpp.o
@@ -328,7 +337,7 @@ pepper_planner_gui.o: pepper_planner_gui.cpp.o
 
 # target to build an object file
 pepper_planner_gui.cpp.o:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/pepper_planner_gui.cpp.o
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/pepper_planner_gui.cpp.o
 .PHONY : pepper_planner_gui.cpp.o
 
 pepper_planner_gui.i: pepper_planner_gui.cpp.i
@@ -337,7 +346,7 @@ pepper_planner_gui.i: pepper_planner_gui.cpp.i
 
 # target to preprocess a source file
 pepper_planner_gui.cpp.i:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/pepper_planner_gui.cpp.i
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/pepper_planner_gui.cpp.i
 .PHONY : pepper_planner_gui.cpp.i
 
 pepper_planner_gui.s: pepper_planner_gui.cpp.s
@@ -346,7 +355,7 @@ pepper_planner_gui.s: pepper_planner_gui.cpp.s
 
 # target to generate assembly for a file
 pepper_planner_gui.cpp.s:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/pepper_planner_gui.cpp.s
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/pepper_planner_gui.cpp.s
 .PHONY : pepper_planner_gui.cpp.s
 
 # Help Target
@@ -358,7 +367,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... naoqi_planner_library"
 	@echo "... pepper_planner_gui"
 	@echo "... naoqi_planner_gui_library"
@@ -391,6 +399,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

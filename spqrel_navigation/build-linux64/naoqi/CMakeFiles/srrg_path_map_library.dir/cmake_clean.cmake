@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/srrg_path_map_library.dir/__/src/srrg_path_map/dijkstra_path_search.cpp.o"
   "../sdk/lib/libsrrg_path_map_library.pdb"
   "../sdk/lib/libsrrg_path_map_library.so"
+  "../sdk/lib/libsrrg_path_map_library.pdb"
+  "CMakeFiles/CMakeRelink.dir/libsrrg_path_map_library.so"
 )
 
 # Per-language clean rules from dependency scanning.

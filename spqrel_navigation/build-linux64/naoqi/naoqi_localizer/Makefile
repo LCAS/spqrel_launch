@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marc/workspace/SPQReL/worktree/spqrel_navigation
+CMAKE_SOURCE_DIR = /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64
+CMAKE_BINARY_DIR = /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -89,28 +89,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -122,16 +100,27 @@ install/local/fast: install/local
 
 .PHONY : install/local/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/CMakeFiles /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi/naoqi_localizer/CMakeFiles/progress.marks
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_localizer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/CMakeFiles 0
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/CMakeFiles /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/naoqi/naoqi_localizer/CMakeFiles/progress.marks
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_localizer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_localizer/clean
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_localizer/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +130,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_localizer/preinstall
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_localizer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_localizer/preinstall
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_localizer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/rule:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/rule
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/rule
 .PHONY : naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/rule
 
 # Convenience name for target.
@@ -166,12 +155,17 @@ naoqi_localizer_library: naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_librar
 
 # fast build rule for target.
 naoqi_localizer_library/fast:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/build.make naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/build
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/build.make naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/build
 .PHONY : naoqi_localizer_library/fast
+
+# Manual pre-install relink rule for target.
+naoqi_localizer_library/preinstall:
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/preinstall
+.PHONY : naoqi_localizer_library/preinstall
 
 # Convenience name for target.
 naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/rule:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/rule
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/rule
 .PHONY : naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/rule
 
 # Convenience name for target.
@@ -181,8 +175,13 @@ pepper_localizer: naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/rule
 
 # fast build rule for target.
 pepper_localizer/fast:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/build.make naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/build
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/build.make naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/build
 .PHONY : pepper_localizer/fast
+
+# Manual pre-install relink rule for target.
+pepper_localizer/preinstall:
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f CMakeFiles/Makefile2 naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/preinstall
+.PHONY : pepper_localizer/preinstall
 
 naoqi_localizer.o: naoqi_localizer.cpp.o
 
@@ -190,7 +189,7 @@ naoqi_localizer.o: naoqi_localizer.cpp.o
 
 # target to build an object file
 naoqi_localizer.cpp.o:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/build.make naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/naoqi_localizer.cpp.o
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/build.make naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/naoqi_localizer.cpp.o
 .PHONY : naoqi_localizer.cpp.o
 
 naoqi_localizer.i: naoqi_localizer.cpp.i
@@ -199,7 +198,7 @@ naoqi_localizer.i: naoqi_localizer.cpp.i
 
 # target to preprocess a source file
 naoqi_localizer.cpp.i:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/build.make naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/naoqi_localizer.cpp.i
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/build.make naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/naoqi_localizer.cpp.i
 .PHONY : naoqi_localizer.cpp.i
 
 naoqi_localizer.s: naoqi_localizer.cpp.s
@@ -208,7 +207,7 @@ naoqi_localizer.s: naoqi_localizer.cpp.s
 
 # target to generate assembly for a file
 naoqi_localizer.cpp.s:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/build.make naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/naoqi_localizer.cpp.s
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/build.make naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/naoqi_localizer.cpp.s
 .PHONY : naoqi_localizer.cpp.s
 
 pepper_localizer.o: pepper_localizer.cpp.o
@@ -217,7 +216,7 @@ pepper_localizer.o: pepper_localizer.cpp.o
 
 # target to build an object file
 pepper_localizer.cpp.o:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/build.make naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/pepper_localizer.cpp.o
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/build.make naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/pepper_localizer.cpp.o
 .PHONY : pepper_localizer.cpp.o
 
 pepper_localizer.i: pepper_localizer.cpp.i
@@ -226,7 +225,7 @@ pepper_localizer.i: pepper_localizer.cpp.i
 
 # target to preprocess a source file
 pepper_localizer.cpp.i:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/build.make naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/pepper_localizer.cpp.i
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/build.make naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/pepper_localizer.cpp.i
 .PHONY : pepper_localizer.cpp.i
 
 pepper_localizer.s: pepper_localizer.cpp.s
@@ -235,7 +234,7 @@ pepper_localizer.s: pepper_localizer.cpp.s
 
 # target to generate assembly for a file
 pepper_localizer.cpp.s:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/build.make naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/pepper_localizer.cpp.s
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/build.make naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/pepper_localizer.cpp.s
 .PHONY : pepper_localizer.cpp.s
 
 # Help Target
@@ -247,11 +246,10 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... naoqi_localizer_library"
 	@echo "... pepper_localizer"
-	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... edit_cache"
 	@echo "... naoqi_localizer.o"
 	@echo "... naoqi_localizer.i"
 	@echo "... naoqi_localizer.s"
@@ -269,6 +267,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

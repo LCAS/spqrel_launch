@@ -1,4 +1,4 @@
-# Install script for directory: /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi
+# Install script for directory: /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,15 +37,15 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qi" TYPE FILE FILES "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper/path.conf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qi" TYPE FILE FILES "/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper/path.conf")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper/sdk/lib/libpnp.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper/sdk/lib/libpnp.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpnp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpnp.so")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../bin/i686-aldebaran-linux-gnu-strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpnp.so")
+      execute_process(COMMAND "/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../bin/i686-aldebaran-linux-gnu-strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libpnp.so")
     endif()
   endif()
 endif()
@@ -55,25 +55,25 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/pnp" TYPE FILE FILES "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper/cmake/sdk/pnp-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/pnp" TYPE FILE FILES "/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper/cmake/sdk/pnp-config.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper/sdk/bin/pnp_test")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper/sdk/bin/pnp_test")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pnp_test" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pnp_test")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../bin/i686-aldebaran-linux-gnu-strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pnp_test")
+      execute_process(COMMAND "/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../bin/i686-aldebaran-linux-gnu-strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pnp_test")
     endif()
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper/sdk/bin/pnp_naoqi")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper/sdk/bin/pnp_naoqi")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pnp_naoqi" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pnp_naoqi")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../bin/i686-aldebaran-linux-gnu-strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pnp_naoqi")
+      execute_process(COMMAND "/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../bin/i686-aldebaran-linux-gnu-strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pnp_naoqi")
     endif()
   endif()
 endif()
@@ -86,5 +86,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

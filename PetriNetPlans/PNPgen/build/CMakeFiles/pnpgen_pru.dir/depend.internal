@@ -8,7 +8,7 @@ CMakeFiles/pnpgen_pru.dir/src/pnpgen_pru.cpp.o
  ../src/PRUMDP/PRU2MDPprogress.h
  ../src/PRUMDP/PRU2MDPstateStore.h
  ../src/PRUMDP/PRUplus.h
- /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/conditionalplan.h
- /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnpgen_pru.cpp
- /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnpgenerator.h
- /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/policy.h
+ /home/iocchi/src/PetriNetPlans/PNPgen/src/conditionalplan.h
+ /home/iocchi/src/PetriNetPlans/PNPgen/src/pnpgen_pru.cpp
+ /home/iocchi/src/PetriNetPlans/PNPgen/src/pnpgenerator.h
+ /home/iocchi/src/PetriNetPlans/PNPgen/src/policy.h

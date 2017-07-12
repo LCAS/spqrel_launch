@@ -6,5 +6,5 @@ CXX_FLAGS = -std=gnu++11 -D_GLIBCXX_USE_CXX11_ABI=0 -O3 -DNDEBUG -fPIC   -fPIC
 
 CXX_DEFINES = -Dsrrg_system_utils_yaml_EXPORTS
 
-CXX_INCLUDES = -I/home/marc/workspace/SPQReL/worktree/spqrel_navigation/naoqi/../src -I/home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/include/eigen3 -I/home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/include -I/home/marc/workspace/SPQReL/worktree/spqrel_navigation/naoqi 
+CXX_INCLUDES = -I/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/naoqi/../src -I/opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/include/eigen3 -I/opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/include -I/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/naoqi 
 

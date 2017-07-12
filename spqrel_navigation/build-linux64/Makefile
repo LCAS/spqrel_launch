@@ -48,46 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marc/workspace/SPQReL/worktree/spqrel_navigation
+CMAKE_SOURCE_DIR = /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64
+CMAKE_BINARY_DIR = /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"devel\" \"runtime\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -113,8 +80,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -122,11 +89,33 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"devel\" \"runtime\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/CMakeFiles /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/CMakeFiles /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -155,43 +144,22 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named dijkstra_test
+# Target rules for targets named srrg_system_utils_yaml
 
 # Build rule for target.
-dijkstra_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dijkstra_test
-.PHONY : dijkstra_test
+srrg_system_utils_yaml: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 srrg_system_utils_yaml
+.PHONY : srrg_system_utils_yaml
 
 # fast build rule for target.
-dijkstra_test/fast:
-	$(MAKE) -f naoqi/CMakeFiles/dijkstra_test.dir/build.make naoqi/CMakeFiles/dijkstra_test.dir/build
-.PHONY : dijkstra_test/fast
+srrg_system_utils_yaml/fast:
+	$(MAKE) -f naoqi/CMakeFiles/srrg_system_utils_yaml.dir/build.make naoqi/CMakeFiles/srrg_system_utils_yaml.dir/build
+.PHONY : srrg_system_utils_yaml/fast
 
-#=============================================================================
-# Target rules for targets named distance_map_test
-
-# Build rule for target.
-distance_map_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 distance_map_test
-.PHONY : distance_map_test
-
-# fast build rule for target.
-distance_map_test/fast:
-	$(MAKE) -f naoqi/CMakeFiles/distance_map_test.dir/build.make naoqi/CMakeFiles/distance_map_test.dir/build
-.PHONY : distance_map_test/fast
-
-#=============================================================================
-# Target rules for targets named srrg_path_map_library
-
-# Build rule for target.
-srrg_path_map_library: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 srrg_path_map_library
-.PHONY : srrg_path_map_library
-
-# fast build rule for target.
-srrg_path_map_library/fast:
-	$(MAKE) -f naoqi/CMakeFiles/srrg_path_map_library.dir/build.make naoqi/CMakeFiles/srrg_path_map_library.dir/build
-.PHONY : srrg_path_map_library/fast
+# Manual pre-install relink rule for target.
+srrg_system_utils_yaml/preinstall:
+	$(MAKE) -f naoqi/CMakeFiles/srrg_system_utils_yaml.dir/build.make naoqi/CMakeFiles/srrg_system_utils_yaml.dir/preinstall
+.PHONY : srrg_system_utils_yaml/preinstall
 
 #=============================================================================
 # Target rules for targets named srrg_localizer2d_library
@@ -206,18 +174,64 @@ srrg_localizer2d_library/fast:
 	$(MAKE) -f naoqi/CMakeFiles/srrg_localizer2d_library.dir/build.make naoqi/CMakeFiles/srrg_localizer2d_library.dir/build
 .PHONY : srrg_localizer2d_library/fast
 
+# Manual pre-install relink rule for target.
+srrg_localizer2d_library/preinstall:
+	$(MAKE) -f naoqi/CMakeFiles/srrg_localizer2d_library.dir/build.make naoqi/CMakeFiles/srrg_localizer2d_library.dir/preinstall
+.PHONY : srrg_localizer2d_library/preinstall
+
 #=============================================================================
-# Target rules for targets named srrg_system_utils_yaml
+# Target rules for targets named srrg_path_map_library
 
 # Build rule for target.
-srrg_system_utils_yaml: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 srrg_system_utils_yaml
-.PHONY : srrg_system_utils_yaml
+srrg_path_map_library: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 srrg_path_map_library
+.PHONY : srrg_path_map_library
 
 # fast build rule for target.
-srrg_system_utils_yaml/fast:
-	$(MAKE) -f naoqi/CMakeFiles/srrg_system_utils_yaml.dir/build.make naoqi/CMakeFiles/srrg_system_utils_yaml.dir/build
-.PHONY : srrg_system_utils_yaml/fast
+srrg_path_map_library/fast:
+	$(MAKE) -f naoqi/CMakeFiles/srrg_path_map_library.dir/build.make naoqi/CMakeFiles/srrg_path_map_library.dir/build
+.PHONY : srrg_path_map_library/fast
+
+# Manual pre-install relink rule for target.
+srrg_path_map_library/preinstall:
+	$(MAKE) -f naoqi/CMakeFiles/srrg_path_map_library.dir/build.make naoqi/CMakeFiles/srrg_path_map_library.dir/preinstall
+.PHONY : srrg_path_map_library/preinstall
+
+#=============================================================================
+# Target rules for targets named distance_map_test
+
+# Build rule for target.
+distance_map_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 distance_map_test
+.PHONY : distance_map_test
+
+# fast build rule for target.
+distance_map_test/fast:
+	$(MAKE) -f naoqi/CMakeFiles/distance_map_test.dir/build.make naoqi/CMakeFiles/distance_map_test.dir/build
+.PHONY : distance_map_test/fast
+
+# Manual pre-install relink rule for target.
+distance_map_test/preinstall:
+	$(MAKE) -f naoqi/CMakeFiles/distance_map_test.dir/build.make naoqi/CMakeFiles/distance_map_test.dir/preinstall
+.PHONY : distance_map_test/preinstall
+
+#=============================================================================
+# Target rules for targets named dijkstra_test
+
+# Build rule for target.
+dijkstra_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dijkstra_test
+.PHONY : dijkstra_test
+
+# fast build rule for target.
+dijkstra_test/fast:
+	$(MAKE) -f naoqi/CMakeFiles/dijkstra_test.dir/build.make naoqi/CMakeFiles/dijkstra_test.dir/build
+.PHONY : dijkstra_test/fast
+
+# Manual pre-install relink rule for target.
+dijkstra_test/preinstall:
+	$(MAKE) -f naoqi/CMakeFiles/dijkstra_test.dir/build.make naoqi/CMakeFiles/dijkstra_test.dir/preinstall
+.PHONY : dijkstra_test/preinstall
 
 #=============================================================================
 # Target rules for targets named naoqi_sensor_utils_library
@@ -232,6 +246,11 @@ naoqi_sensor_utils_library/fast:
 	$(MAKE) -f naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/build.make naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/build
 .PHONY : naoqi_sensor_utils_library/fast
 
+# Manual pre-install relink rule for target.
+naoqi_sensor_utils_library/preinstall:
+	$(MAKE) -f naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/build.make naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/preinstall
+.PHONY : naoqi_sensor_utils_library/preinstall
+
 #=============================================================================
 # Target rules for targets named naoqi_localizer_library
 
@@ -244,6 +263,11 @@ naoqi_localizer_library: cmake_check_build_system
 naoqi_localizer_library/fast:
 	$(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/build.make naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/build
 .PHONY : naoqi_localizer_library/fast
+
+# Manual pre-install relink rule for target.
+naoqi_localizer_library/preinstall:
+	$(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/build.make naoqi/naoqi_localizer/CMakeFiles/naoqi_localizer_library.dir/preinstall
+.PHONY : naoqi_localizer_library/preinstall
 
 #=============================================================================
 # Target rules for targets named pepper_localizer
@@ -258,6 +282,11 @@ pepper_localizer/fast:
 	$(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/build.make naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/build
 .PHONY : pepper_localizer/fast
 
+# Manual pre-install relink rule for target.
+pepper_localizer/preinstall:
+	$(MAKE) -f naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/build.make naoqi/naoqi_localizer/CMakeFiles/pepper_localizer.dir/preinstall
+.PHONY : pepper_localizer/preinstall
+
 #=============================================================================
 # Target rules for targets named naoqi_planner_library
 
@@ -270,6 +299,11 @@ naoqi_planner_library: cmake_check_build_system
 naoqi_planner_library/fast:
 	$(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build
 .PHONY : naoqi_planner_library/fast
+
+# Manual pre-install relink rule for target.
+naoqi_planner_library/preinstall:
+	$(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_library.dir/preinstall
+.PHONY : naoqi_planner_library/preinstall
 
 #=============================================================================
 # Target rules for targets named pepper_planner_gui
@@ -284,6 +318,11 @@ pepper_planner_gui/fast:
 	$(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/build
 .PHONY : pepper_planner_gui/fast
 
+# Manual pre-install relink rule for target.
+pepper_planner_gui/preinstall:
+	$(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner_gui.dir/preinstall
+.PHONY : pepper_planner_gui/preinstall
+
 #=============================================================================
 # Target rules for targets named naoqi_planner_gui_library
 
@@ -296,6 +335,11 @@ naoqi_planner_gui_library: cmake_check_build_system
 naoqi_planner_gui_library/fast:
 	$(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/build
 .PHONY : naoqi_planner_gui_library/fast
+
+# Manual pre-install relink rule for target.
+naoqi_planner_gui_library/preinstall:
+	$(MAKE) -f naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/build.make naoqi/naoqi_planner/CMakeFiles/naoqi_planner_gui_library.dir/preinstall
+.PHONY : naoqi_planner_gui_library/preinstall
 
 #=============================================================================
 # Target rules for targets named pepper_planner
@@ -310,23 +354,27 @@ pepper_planner/fast:
 	$(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/build
 .PHONY : pepper_planner/fast
 
+# Manual pre-install relink rule for target.
+pepper_planner/preinstall:
+	$(MAKE) -f naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/build.make naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/preinstall
+.PHONY : pepper_planner/preinstall
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install"
-	@echo "... list_install_components"
-	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... dijkstra_test"
-	@echo "... distance_map_test"
-	@echo "... srrg_path_map_library"
-	@echo "... srrg_localizer2d_library"
+	@echo "... install"
+	@echo "... list_install_components"
 	@echo "... srrg_system_utils_yaml"
+	@echo "... srrg_localizer2d_library"
+	@echo "... srrg_path_map_library"
+	@echo "... distance_map_test"
+	@echo "... dijkstra_test"
 	@echo "... naoqi_sensor_utils_library"
 	@echo "... naoqi_localizer_library"
 	@echo "... pepper_localizer"

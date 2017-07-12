@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/naoqi_planner_library.dir/dynamic_map.cpp.o"
   "../../sdk/lib/libnaoqi_planner_library.pdb"
   "../../sdk/lib/libnaoqi_planner_library.so"
+  "../../sdk/lib/libnaoqi_planner_library.pdb"
+  "CMakeFiles/CMakeRelink.dir/libnaoqi_planner_library.so"
 )
 
 # Per-language clean rules from dependency scanning.

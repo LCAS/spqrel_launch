@@ -4,7 +4,7 @@
 #############################################
 
 # Add path to CMake framework path if necessary:
-set(_qibuild_path "/home/marc/.local/share/cmake")
+set(_qibuild_path "/home/iocchi/.local/share/cmake")
 list(FIND CMAKE_MODULE_PATH "${_qibuild_path}" _found)
 if(_found STREQUAL "-1")
   # Prefer cmake files matching  current qibuild installation
@@ -13,9 +13,9 @@ if(_found STREQUAL "-1")
 endif()
 
 # Dependencies:
-list(FIND CMAKE_PREFIX_PATH "/home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64" _found)
+list(FIND CMAKE_PREFIX_PATH "/opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64" _found)
 if(_found STREQUAL "-1")
-  list(APPEND CMAKE_PREFIX_PATH "/home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64")
+  list(APPEND CMAKE_PREFIX_PATH "/opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64")
 endif()
 
 
@@ -25,4 +25,4 @@ set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} CACHE INTERNAL ""  FORCE)
 
 
 
-set(QIBUILD_PYTHON_PATH "/home/marc/.local/lib/python2.7/site-packages" CACHE STRING "" FORCE)
+set(QIBUILD_PYTHON_PATH "/home/iocchi/.local/lib/python2.7/site-packages" CACHE STRING "" FORCE)

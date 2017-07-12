@@ -1,4 +1,4 @@
-# Install script for directory: /home/marc/workspace/SPQReL/worktree/spqrel_navigation/naoqi
+# Install script for directory: /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/naoqi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,23 +33,7 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_system_utils_yaml.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_system_utils_yaml.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_system_utils_yaml.so"
-         RPATH "$ORIGIN/../lib")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/sdk/lib/libsrrg_system_utils_yaml.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_system_utils_yaml.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_system_utils_yaml.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_system_utils_yaml.so"
-         OLD_RPATH "::::::::::::::"
-         NEW_RPATH "$ORIGIN/../lib")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_system_utils_yaml.so")
-    endif()
-  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/naoqi/CMakeFiles/CMakeRelink.dir/libsrrg_system_utils_yaml.so")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
@@ -57,27 +41,11 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/srrg_system_utils_yaml" TYPE FILE FILES "/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/cmake/sdk/srrg_system_utils_yaml-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/srrg_system_utils_yaml" TYPE FILE FILES "/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/cmake/sdk/srrg_system_utils_yaml-config.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_path_map_library.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_path_map_library.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_path_map_library.so"
-         RPATH "$ORIGIN/../lib")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/sdk/lib/libsrrg_path_map_library.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_path_map_library.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_path_map_library.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_path_map_library.so"
-         OLD_RPATH "/home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib:"
-         NEW_RPATH "$ORIGIN/../lib")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_path_map_library.so")
-    endif()
-  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/naoqi/CMakeFiles/CMakeRelink.dir/libsrrg_path_map_library.so")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
@@ -85,67 +53,19 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/srrg_path_map_library" TYPE FILE FILES "/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/cmake/sdk/srrg_path_map_library-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/srrg_path_map_library" TYPE FILE FILES "/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/cmake/sdk/srrg_path_map_library-config.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/distance_map_test" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/distance_map_test")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/distance_map_test"
-         RPATH "$ORIGIN/../lib")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/sdk/bin/distance_map_test")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/distance_map_test" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/distance_map_test")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/distance_map_test"
-         OLD_RPATH "/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/sdk/lib:/home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib:"
-         NEW_RPATH "$ORIGIN/../lib")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/distance_map_test")
-    endif()
-  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/naoqi/CMakeFiles/CMakeRelink.dir/distance_map_test")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dijkstra_test" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dijkstra_test")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dijkstra_test"
-         RPATH "$ORIGIN/../lib")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/sdk/bin/dijkstra_test")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dijkstra_test" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dijkstra_test")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dijkstra_test"
-         OLD_RPATH "/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/sdk/lib:/home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib:"
-         NEW_RPATH "$ORIGIN/../lib")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/dijkstra_test")
-    endif()
-  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/naoqi/CMakeFiles/CMakeRelink.dir/dijkstra_test")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_localizer2d_library.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_localizer2d_library.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_localizer2d_library.so"
-         RPATH "$ORIGIN/../lib")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/sdk/lib/libsrrg_localizer2d_library.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_localizer2d_library.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_localizer2d_library.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_localizer2d_library.so"
-         OLD_RPATH "/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/sdk/lib:/home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib:"
-         NEW_RPATH "$ORIGIN/../lib")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrrg_localizer2d_library.so")
-    endif()
-  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/naoqi/CMakeFiles/CMakeRelink.dir/libsrrg_localizer2d_library.so")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
@@ -153,14 +73,14 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/srrg_localizer2d_library" TYPE FILE FILES "/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/cmake/sdk/srrg_localizer2d_library-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/srrg_localizer2d_library" TYPE FILE FILES "/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/cmake/sdk/srrg_localizer2d_library-config.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi/naoqi_sensor_utils/cmake_install.cmake")
-  include("/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi/naoqi_localizer/cmake_install.cmake")
-  include("/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi/naoqi_planner/cmake_install.cmake")
+  include("/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/naoqi/naoqi_sensor_utils/cmake_install.cmake")
+  include("/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/naoqi/naoqi_localizer/cmake_install.cmake")
+  include("/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-linux64/naoqi/naoqi_planner/cmake_install.cmake")
 
 endif()
 
