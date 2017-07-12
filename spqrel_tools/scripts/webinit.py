@@ -1,5 +1,3 @@
-#http://doc.aldebaran.com/2-5/naoqi/core/altabletservice-api.html
-
 import qi
 import argparse
 import sys
