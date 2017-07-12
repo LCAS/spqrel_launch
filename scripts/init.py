@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import qi
 import argparse
 import sys
@@ -26,6 +28,11 @@ def main():
                "Please check your script arguments. Run with -h option for help.")
         sys.exit(1)
 
+    time.sleep(10)
+
+    tts_service = session.service("ALTextToSpeech")
+    tts_service.say("Initialization started.")
+
     print "Waiting 20 seconds..."
     time.sleep(20)
     webinit.do_init(session)
@@ -34,7 +41,6 @@ def main():
     time.sleep(5)
     postureinit.do_init(session)
 
-    tts_service = session.service("ALTextToSpeech")
     tts_service.say("Initialization completed.")
 
 if __name__ == "__main__":
