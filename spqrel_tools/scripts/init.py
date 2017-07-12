@@ -27,7 +27,7 @@ def main():
         sys.exit(1)
 
     print "Waiting 20 seconds..."
-    time.sleep(2)
+    time.sleep(20)
     webinit.do_init(session)
     time.sleep(5)
     behaviorinit.do_init(session)
