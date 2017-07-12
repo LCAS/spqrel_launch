@@ -1,3 +1,9 @@
 [submodule "worktree/spqrel_tools"]
 	path = worktree/spqrel_tools
 	url = git@github.com:LCAS/spqrel_tools.git
+[submodule "worktree/spqrel_navigation"]
+	path = worktree/spqrel_navigation
+	url = git@github.com:LCAS/spqrel_navigation.git
+[submodule "worktree/PetriNetPlans"]
+	path = worktree/PetriNetPlans
+	url = git@github.com:iocchi/PetriNetPlans.git
