@@ -33,9 +33,9 @@ tmux send-keys "# naoqi-bin"
 tmux select-window -t $SESSION:2
 tmux split-window -v
 tmux select-pane -t 0
-tmux send-keys "# cd $SPQREL_PREFIX/bin; ./pepper_localizer --map $MAP --initial_pose_x 0 --initial_pose_y 0 --initial_pose_theta 0" C-m
+tmux send-keys "cd $SPQREL_PREFIX/bin; ./pepper_localizer --map $MAP --initial_pose_x 0 --initial_pose_y 0 --initial_pose_theta 0" C-m
 tmux select-pane -t 1
-tmux send-keys "# cd $SPQREL_PREFIX/bin; ./pepper_planner --map $MAP " C-m
+tmux send-keys "cd $SPQREL_PREFIX/bin; ./pepper_planner --map $MAP " C-m
 
 
 # Speech Window
