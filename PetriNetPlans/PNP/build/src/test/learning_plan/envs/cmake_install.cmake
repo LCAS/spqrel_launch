@@ -1,4 +1,4 @@
-# Install script for directory: /home/iocchi/src/PetriNetPlans/PNP/src/test/learning_plan/envs
+# Install script for directory: /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/test/learning_plan/envs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/iocchi/src/PetriNetPlans/PNP/build/src/test/learning_plan/envs/env1/cmake_install.cmake")
+  include("/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/build/src/test/learning_plan/envs/env1/cmake_install.cmake")
 
 endif()
 

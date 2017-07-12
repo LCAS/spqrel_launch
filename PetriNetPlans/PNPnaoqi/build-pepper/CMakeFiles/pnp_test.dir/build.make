@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi
+CMAKE_SOURCE_DIR = /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper
+CMAKE_BINARY_DIR = /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pnp_test.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/pnp_test.dir/flags.make
 
 CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o: CMakeFiles/pnp_test.dir/flags.make
 CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o: ../src/pnp_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o"
-	/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o -c /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o"
+	/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o -c /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp
 
 CMakeFiles/pnp_test.dir/src/pnp_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pnp_test.dir/src/pnp_test.cpp.i"
-	/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp > CMakeFiles/pnp_test.dir/src/pnp_test.cpp.i
+	/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp > CMakeFiles/pnp_test.dir/src/pnp_test.cpp.i
 
 CMakeFiles/pnp_test.dir/src/pnp_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pnp_test.dir/src/pnp_test.cpp.s"
-	/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp -o CMakeFiles/pnp_test.dir/src/pnp_test.cpp.s
+	/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp -o CMakeFiles/pnp_test.dir/src/pnp_test.cpp.s
 
 CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o.provides.build: CMakeFiles/pnp_test.d
 
 CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o: CMakeFiles/pnp_test.dir/flags.make
 CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o: ../src/ActionProxy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o"
-	/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o -c /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o"
+	/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o -c /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp
 
 CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.i"
-	/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp > CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.i
+	/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp > CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.i
 
 CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.s"
-	/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp -o CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.s
+	/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp -o CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.s
 
 CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o.requires:
 
@@ -117,13 +117,13 @@ sdk/bin/pnp_test: CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o
 sdk/bin/pnp_test: CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o
 sdk/bin/pnp_test: CMakeFiles/pnp_test.dir/build.make
 sdk/bin/pnp_test: sdk/lib/libpnp.so
-sdk/bin/pnp_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/xml2/lib/libxml2.so.2
-sdk/bin/pnp_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/lib/libdl.so
-sdk/bin/pnp_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/zlib/lib/libz.so.1
-sdk/bin/pnp_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/xz_utils/lib/liblzma.so.5
-sdk/bin/pnp_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/lib/libpthread.so
+sdk/bin/pnp_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/xml2/lib/libxml2.so.2
+sdk/bin/pnp_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/lib/libdl.so
+sdk/bin/pnp_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/zlib/lib/libz.so.1
+sdk/bin/pnp_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/xz_utils/lib/liblzma.so.5
+sdk/bin/pnp_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/lib/libpthread.so
 sdk/bin/pnp_test: CMakeFiles/pnp_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sdk/bin/pnp_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sdk/bin/pnp_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pnp_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -141,6 +141,6 @@ CMakeFiles/pnp_test.dir/clean:
 .PHONY : CMakeFiles/pnp_test.dir/clean
 
 CMakeFiles/pnp_test.dir/depend:
-	cd /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper /home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles/pnp_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles/pnp_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pnp_test.dir/depend
 

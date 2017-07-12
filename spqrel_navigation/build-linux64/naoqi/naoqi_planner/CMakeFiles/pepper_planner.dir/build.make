@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iocchi/src/spqrel_navigation
+CMAKE_SOURCE_DIR = /home/marc/workspace/SPQReL/worktree/spqrel_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iocchi/src/spqrel_navigation/build-linux64
+CMAKE_BINARY_DIR = /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64
 
 # Include any dependencies generated for this target.
 include naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/depend.make
@@ -59,16 +59,16 @@ include naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/flags.make
 
 naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/pepper_planner.cpp.o: naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/flags.make
 naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/pepper_planner.cpp.o: ../naoqi/naoqi_planner/pepper_planner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iocchi/src/spqrel_navigation/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/pepper_planner.cpp.o"
-	cd /home/iocchi/src/spqrel_navigation/build-linux64/naoqi/naoqi_planner && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pepper_planner.dir/pepper_planner.cpp.o -c /home/iocchi/src/spqrel_navigation/naoqi/naoqi_planner/pepper_planner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/pepper_planner.cpp.o"
+	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi/naoqi_planner && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pepper_planner.dir/pepper_planner.cpp.o -c /home/marc/workspace/SPQReL/worktree/spqrel_navigation/naoqi/naoqi_planner/pepper_planner.cpp
 
 naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/pepper_planner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pepper_planner.dir/pepper_planner.cpp.i"
-	cd /home/iocchi/src/spqrel_navigation/build-linux64/naoqi/naoqi_planner && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iocchi/src/spqrel_navigation/naoqi/naoqi_planner/pepper_planner.cpp > CMakeFiles/pepper_planner.dir/pepper_planner.cpp.i
+	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi/naoqi_planner && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/workspace/SPQReL/worktree/spqrel_navigation/naoqi/naoqi_planner/pepper_planner.cpp > CMakeFiles/pepper_planner.dir/pepper_planner.cpp.i
 
 naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/pepper_planner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pepper_planner.dir/pepper_planner.cpp.s"
-	cd /home/iocchi/src/spqrel_navigation/build-linux64/naoqi/naoqi_planner && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iocchi/src/spqrel_navigation/naoqi/naoqi_planner/pepper_planner.cpp -o CMakeFiles/pepper_planner.dir/pepper_planner.cpp.s
+	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi/naoqi_planner && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/workspace/SPQReL/worktree/spqrel_navigation/naoqi/naoqi_planner/pepper_planner.cpp -o CMakeFiles/pepper_planner.dir/pepper_planner.cpp.s
 
 naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/pepper_planner.cpp.o.requires:
 
@@ -94,40 +94,40 @@ sdk/bin/pepper_planner: sdk/lib/libnaoqi_planner_library.so
 sdk/bin/pepper_planner: sdk/lib/libsrrg_system_utils_yaml.so
 sdk/bin/pepper_planner: sdk/lib/libsrrg_path_map_library.so
 sdk/bin/pepper_planner: sdk/lib/libnaoqi_sensor_utils_library.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libalproxies.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libalcommon.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_signals.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/librttools.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libalvalue.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libalerror.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libqi.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_date_time.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_chrono.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_filesystem.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_system.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_regex.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_program_options.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libssl.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libcrypto.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_locale.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_thread.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libicudata.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libicui18n.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libicuio.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libicule.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libiculx.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libicutest.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libicutu.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libicuuc.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libalproxies.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libalcommon.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_signals.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/librttools.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libalvalue.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libalerror.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libqi.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_date_time.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_chrono.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_filesystem.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_system.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_regex.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_program_options.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libssl.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libcrypto.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_locale.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_thread.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicudata.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicui18n.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicuio.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicule.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libiculx.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicutest.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicutu.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicuuc.so
 sdk/bin/pepper_planner: /usr/lib/x86_64-linux-gnu/libdl.so
 sdk/bin/pepper_planner: /usr/lib/x86_64-linux-gnu/librt.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libopencv_highgui.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libopencv_imgproc.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libopencv_core.so
-sdk/bin/pepper_planner: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libz.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libopencv_highgui.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libopencv_imgproc.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libopencv_core.so
+sdk/bin/pepper_planner: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libz.so
 sdk/bin/pepper_planner: naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iocchi/src/spqrel_navigation/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../sdk/bin/pepper_planner"
-	cd /home/iocchi/src/spqrel_navigation/build-linux64/naoqi/naoqi_planner && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pepper_planner.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../sdk/bin/pepper_planner"
+	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi/naoqi_planner && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pepper_planner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/build: sdk/bin/pepper_planner
@@ -139,10 +139,10 @@ naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/requires: naoqi/naoqi_planner/
 .PHONY : naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/requires
 
 naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/clean:
-	cd /home/iocchi/src/spqrel_navigation/build-linux64/naoqi/naoqi_planner && $(CMAKE_COMMAND) -P CMakeFiles/pepper_planner.dir/cmake_clean.cmake
+	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi/naoqi_planner && $(CMAKE_COMMAND) -P CMakeFiles/pepper_planner.dir/cmake_clean.cmake
 .PHONY : naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/clean
 
 naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/depend:
-	cd /home/iocchi/src/spqrel_navigation/build-linux64 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iocchi/src/spqrel_navigation /home/iocchi/src/spqrel_navigation/naoqi/naoqi_planner /home/iocchi/src/spqrel_navigation/build-linux64 /home/iocchi/src/spqrel_navigation/build-linux64/naoqi/naoqi_planner /home/iocchi/src/spqrel_navigation/build-linux64/naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marc/workspace/SPQReL/worktree/spqrel_navigation /home/marc/workspace/SPQReL/worktree/spqrel_navigation/naoqi/naoqi_planner /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi/naoqi_planner /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : naoqi/naoqi_planner/CMakeFiles/pepper_planner.dir/depend
 

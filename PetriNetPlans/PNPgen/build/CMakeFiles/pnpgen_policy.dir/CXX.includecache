@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/iocchi/src/PetriNetPlans/PNPgen/src/conditionalplan.h
+/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/conditionalplan.h
 vector
 -
 map
@@ -18,17 +18,17 @@ iostream
 sstream
 -
 
-/home/iocchi/src/PetriNetPlans/PNPgen/src/pnpgen_policy.cpp
+/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnpgen_policy.cpp
 iostream
 -
 stack
 -
 policy.h
-/home/iocchi/src/PetriNetPlans/PNPgen/src/policy.h
+/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/policy.h
 pnpgenerator.h
-/home/iocchi/src/PetriNetPlans/PNPgen/src/pnpgenerator.h
+/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnpgenerator.h
 
-/home/iocchi/src/PetriNetPlans/PNPgen/src/pnpgenerator.h
+/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnpgenerator.h
 string
 -
 sstream
@@ -40,11 +40,11 @@ stack
 map
 -
 policy.h
-/home/iocchi/src/PetriNetPlans/PNPgen/src/policy.h
+/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/policy.h
 conditionalplan.h
-/home/iocchi/src/PetriNetPlans/PNPgen/src/conditionalplan.h
+/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/conditionalplan.h
 
-/home/iocchi/src/PetriNetPlans/PNPgen/src/policy.h
+/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/policy.h
 vector
 -
 map

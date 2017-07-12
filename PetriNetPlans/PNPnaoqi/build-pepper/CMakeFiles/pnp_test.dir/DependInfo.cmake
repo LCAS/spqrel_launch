@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp" "/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o"
-  "/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp" "/home/iocchi/src/SPQREL/qi_ws/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o"
+  "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp" "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o"
+  "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp" "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-pepper/CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -13,18 +13,18 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../PNP/include"
   "../include"
-  "/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/xml2/include"
-  "/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/xml2/include/libxml2"
-  "/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include"
-  "/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/zlib/include"
-  "/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/xz_utils/include"
+  "/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/xml2/include"
+  "/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/xml2/include/libxml2"
+  "/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include"
+  "/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/zlib/include"
+  "/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/xz_utils/include"
   "../"
-  "/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/libnaoqi/include"
-  "/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/boost/include"
-  "/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/libqi/include"
-  "/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/openssl/include"
-  "/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/icu/include"
-  "/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/systemd/include"
+  "/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libnaoqi/include"
+  "/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/boost/include"
+  "/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libqi/include"
+  "/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/openssl/include"
+  "/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/icu/include"
+  "/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/systemd/include"
   )
 
 # Targets to which this target links.

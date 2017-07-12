@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iocchi/src/PetriNetPlans/PNPgen
+CMAKE_SOURCE_DIR = /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iocchi/src/PetriNetPlans/PNPgen/build
+CMAKE_BINARY_DIR = /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/pnpgen_policy.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/iocchi/src/PetriNetPlans/PNPgen/build
 CMakeFiles/pnpgen_policy.dir/all: CMakeFiles/pnpgen.dir/all
 	$(MAKE) -f CMakeFiles/pnpgen_policy.dir/build.make CMakeFiles/pnpgen_policy.dir/depend
 	$(MAKE) -f CMakeFiles/pnpgen_policy.dir/build.make CMakeFiles/pnpgen_policy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=8,9 "Built target pnpgen_policy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=8,9 "Built target pnpgen_policy"
 .PHONY : CMakeFiles/pnpgen_policy.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/pnpgen_policy.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pnpgen_policy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pnpgen_policy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles 0
 .PHONY : CMakeFiles/pnpgen_policy.dir/rule
 
 # Convenience name for target.
@@ -104,7 +104,7 @@ CMakeFiles/pnpgen_pru.dir/all: CMakeFiles/prumdp.dir/all
 CMakeFiles/pnpgen_pru.dir/all: CMakeFiles/pnpgen.dir/all
 	$(MAKE) -f CMakeFiles/pnpgen_pru.dir/build.make CMakeFiles/pnpgen_pru.dir/depend
 	$(MAKE) -f CMakeFiles/pnpgen_pru.dir/build.make CMakeFiles/pnpgen_pru.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=10,11 "Built target pnpgen_pru"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=10,11 "Built target pnpgen_pru"
 .PHONY : CMakeFiles/pnpgen_pru.dir/all
 
 # Include target in all.
@@ -114,9 +114,9 @@ all: CMakeFiles/pnpgen_pru.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pnpgen_pru.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pnpgen_pru.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles 0
 .PHONY : CMakeFiles/pnpgen_pru.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ clean: CMakeFiles/pnpgen_pru.dir/clean
 CMakeFiles/pnpgen_linear.dir/all: CMakeFiles/pnpgen.dir/all
 	$(MAKE) -f CMakeFiles/pnpgen_linear.dir/build.make CMakeFiles/pnpgen_linear.dir/depend
 	$(MAKE) -f CMakeFiles/pnpgen_linear.dir/build.make CMakeFiles/pnpgen_linear.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=6,7 "Built target pnpgen_linear"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=6,7 "Built target pnpgen_linear"
 .PHONY : CMakeFiles/pnpgen_linear.dir/all
 
 # Include target in all.
@@ -151,9 +151,9 @@ all: CMakeFiles/pnpgen_linear.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pnpgen_linear.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pnpgen_linear.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles 0
 .PHONY : CMakeFiles/pnpgen_linear.dir/rule
 
 # Convenience name for target.
@@ -178,7 +178,7 @@ clean: CMakeFiles/pnpgen_linear.dir/clean
 CMakeFiles/prumdp.dir/all:
 	$(MAKE) -f CMakeFiles/prumdp.dir/build.make CMakeFiles/prumdp.dir/depend
 	$(MAKE) -f CMakeFiles/prumdp.dir/build.make CMakeFiles/prumdp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22 "Built target prumdp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=14,15,16,17,18,19,20,21,22 "Built target prumdp"
 .PHONY : CMakeFiles/prumdp.dir/all
 
 # Include target in all.
@@ -188,9 +188,9 @@ all: CMakeFiles/prumdp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/prumdp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prumdp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles 0
 .PHONY : CMakeFiles/prumdp.dir/rule
 
 # Convenience name for target.
@@ -215,7 +215,7 @@ clean: CMakeFiles/prumdp.dir/clean
 CMakeFiles/pnpgen.dir/all:
 	$(MAKE) -f CMakeFiles/pnpgen.dir/build.make CMakeFiles/pnpgen.dir/depend
 	$(MAKE) -f CMakeFiles/pnpgen.dir/build.make CMakeFiles/pnpgen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=1,2,3 "Built target pnpgen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=1,2,3 "Built target pnpgen"
 .PHONY : CMakeFiles/pnpgen.dir/all
 
 # Include target in all.
@@ -225,9 +225,9 @@ all: CMakeFiles/pnpgen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pnpgen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pnpgen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles 0
 .PHONY : CMakeFiles/pnpgen.dir/rule
 
 # Convenience name for target.
@@ -252,7 +252,7 @@ clean: CMakeFiles/pnpgen.dir/clean
 CMakeFiles/pnpgen_condplan.dir/all: CMakeFiles/pnpgen.dir/all
 	$(MAKE) -f CMakeFiles/pnpgen_condplan.dir/build.make CMakeFiles/pnpgen_condplan.dir/depend
 	$(MAKE) -f CMakeFiles/pnpgen_condplan.dir/build.make CMakeFiles/pnpgen_condplan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=4,5 "Built target pnpgen_condplan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=4,5 "Built target pnpgen_condplan"
 .PHONY : CMakeFiles/pnpgen_condplan.dir/all
 
 # Include target in all.
@@ -262,9 +262,9 @@ all: CMakeFiles/pnpgen_condplan.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pnpgen_condplan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pnpgen_condplan.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles 0
 .PHONY : CMakeFiles/pnpgen_condplan.dir/rule
 
 # Convenience name for target.
@@ -289,7 +289,7 @@ clean: CMakeFiles/pnpgen_condplan.dir/clean
 CMakeFiles/pnpgen_translator.dir/all: CMakeFiles/pnpgen.dir/all
 	$(MAKE) -f CMakeFiles/pnpgen_translator.dir/build.make CMakeFiles/pnpgen_translator.dir/depend
 	$(MAKE) -f CMakeFiles/pnpgen_translator.dir/build.make CMakeFiles/pnpgen_translator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=12,13 "Built target pnpgen_translator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles --progress-num=12,13 "Built target pnpgen_translator"
 .PHONY : CMakeFiles/pnpgen_translator.dir/all
 
 # Include target in all.
@@ -299,9 +299,9 @@ all: CMakeFiles/pnpgen_translator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pnpgen_translator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pnpgen_translator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles 0
 .PHONY : CMakeFiles/pnpgen_translator.dir/rule
 
 # Convenience name for target.

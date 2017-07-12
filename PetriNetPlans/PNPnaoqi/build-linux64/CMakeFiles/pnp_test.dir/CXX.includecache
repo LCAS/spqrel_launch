@@ -190,13 +190,13 @@ iostream
 rdkcore/logging/logging.h
 -
 
-/home/iocchi/src/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp
+/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp
 sstream
 -
 ActionProxy.h
-/home/iocchi/src/PetriNetPlans/PNPnaoqi/src/ActionProxy.h
+/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/ActionProxy.h
 
-/home/iocchi/src/PetriNetPlans/PNPnaoqi/src/ActionProxy.h
+/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/ActionProxy.h
 pnp/pnp_action.h
 -
 set
@@ -204,7 +204,7 @@ set
 string
 -
 
-/home/iocchi/src/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp
+/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp
 iostream
 -
 fstream
@@ -220,5 +220,5 @@ pnp/basic_plan/xml_plan_instantiator.h
 pnp/connection_observer.h
 -
 ActionProxy.h
-/home/iocchi/src/PetriNetPlans/PNPnaoqi/src/ActionProxy.h
+/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/ActionProxy.h
 
