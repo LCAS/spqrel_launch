@@ -4,6 +4,24 @@ import sys
 import time
 import os
 
+
+def do_init(session):
+    tablet_service = session.service("ALTabletService")
+
+    # Display a local image located in img folder in the root of the web server
+    # The ip of the robot from the tablet is 198.18.0.1
+    #tablet_service.showImage("http://198.18.0.1/apps/spqrel/spqrel_logo.jpg")
+
+    # tablet_service.showWebview("http://198.18.0.1/apps/spqrel")
+
+    tablet_service.showImage("http://198.18.0.1/apps/spqrel/img/logo.gif")
+
+    #time.sleep(10)
+
+    # Hide the web view
+    # tablet_service.hideImage()
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--pip", type=str, default=os.environ['PEPPER_IP'],
@@ -24,20 +42,6 @@ def main():
                "Please check your script arguments. Run with -h option for help.")
         sys.exit(1)
 
-    tablet_service = session.service("ALTabletService")
-
-    # Display a local image located in img folder in the root of the web server
-    # The ip of the robot from the tablet is 198.18.0.1
-    #tablet_service.showImage("http://198.18.0.1/apps/spqrel/spqrel_logo.jpg")
-
-    # tablet_service.showWebview("http://198.18.0.1/apps/spqrel")
-
-    tablet_service.showImage("http://198.18.0.1/apps/spqrel/img/logo.gif")
-
-    #time.sleep(10)
-
-    # Hide the web view
-    # tablet_service.hideImage()
 
 if __name__ == "__main__":
     main()

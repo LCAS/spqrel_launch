@@ -4,10 +4,17 @@ import sys
 import time
 import os
 
-def do_init(session):
-    posture_service = session.service("ALRobotPosture")
-    posture_service.goToPosture("Stand",0.5)
+behavior_name = "start_proxies-3eff2a/start_proxies" 
 
+def do_init(session):
+    behavior_mng_service = session.service("ALBehaviorManager")
+    if (behavior_mng_service.isBehaviorInstalled(behavior_name)):
+        # Check that it is not already running.
+        if (not behavior_mng_service.isBehaviorRunning(behavior_name)):
+            # Launch behavior. This is a blocking call, use _async=True if you do not
+            # want to wait for the behavior to finish.
+            print "Behavior Started"
+            behavior_mng_service.runBehavior(behavior_name, _async=True)
 
 
 def main():

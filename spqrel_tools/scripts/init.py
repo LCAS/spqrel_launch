@@ -4,11 +4,7 @@ import sys
 import time
 import os
 
-def do_init(session):
-    posture_service = session.service("ALRobotPosture")
-    posture_service.goToPosture("Stand",0.5)
-
-
+import webinit, posture
 
 def main():
     parser = argparse.ArgumentParser()
@@ -30,6 +26,12 @@ def main():
                "Please check your script arguments. Run with -h option for help.")
         sys.exit(1)
 
+    time.sleep(20)
+    webinit.do_init(session)
+    time.sleep(5)
+    behaviorinit.do_init(session)
+    time.sleep(5)
+    postureinit.do_init(session)
 
 if __name__ == "__main__":
     main()

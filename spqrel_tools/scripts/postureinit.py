@@ -4,6 +4,12 @@ import sys
 import time
 import os
 
+def do_init(session):
+    posture_service = session.service("ALRobotPosture")
+    posture_service.goToPosture("Stand",0.5)
+
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--pip", type=str, default=os.environ['PEPPER_IP'],
@@ -24,8 +30,6 @@ def main():
                "Please check your script arguments. Run with -h option for help.")
         sys.exit(1)
 
-    posture_service = session.service("ALRobotPosture")
-    posture_service.goToPosture("Stand",0.5)
 
 if __name__ == "__main__":
     main()
