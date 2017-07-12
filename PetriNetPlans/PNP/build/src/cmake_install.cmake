@@ -1,4 +1,4 @@
-# Install script for directory: /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src
+# Install script for directory: /home/iocchi/src/PetriNetPlans/PNP/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,7 +47,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/build/src/libpnp.so")
+file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/iocchi/src/PetriNetPlans/PNP/build/src/libpnp.so")
   if(EXISTS "$ENV{DESTDIR}/usr/local/lib/libpnp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libpnp.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -65,13 +65,13 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/include" TYPE DIRECTORY FILES "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/../include/")
+file(INSTALL DESTINATION "/usr/local/include" TYPE DIRECTORY FILES "/home/iocchi/src/PetriNetPlans/PNP/src/../include/")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/build/src/learning_plan/cmake_install.cmake")
-  include("/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/build/src/test/cmake_install.cmake")
+  include("/home/iocchi/src/PetriNetPlans/PNP/build/src/learning_plan/cmake_install.cmake")
+  include("/home/iocchi/src/PetriNetPlans/PNP/build/src/test/cmake_install.cmake")
 
 endif()
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marc/workspace/SPQReL/worktree/spqrel_navigation
+CMAKE_SOURCE_DIR = /home/iocchi/src/spqrel_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64
+CMAKE_BINARY_DIR = /home/iocchi/src/spqrel_navigation/build-linux64
 
 # Include any dependencies generated for this target.
 include naoqi/CMakeFiles/dijkstra_test.dir/depend.make
@@ -59,16 +59,16 @@ include naoqi/CMakeFiles/dijkstra_test.dir/flags.make
 
 naoqi/CMakeFiles/dijkstra_test.dir/__/src/srrg_path_map/dijkstra_test.cpp.o: naoqi/CMakeFiles/dijkstra_test.dir/flags.make
 naoqi/CMakeFiles/dijkstra_test.dir/__/src/srrg_path_map/dijkstra_test.cpp.o: ../src/srrg_path_map/dijkstra_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object naoqi/CMakeFiles/dijkstra_test.dir/__/src/srrg_path_map/dijkstra_test.cpp.o"
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dijkstra_test.dir/__/src/srrg_path_map/dijkstra_test.cpp.o -c /home/marc/workspace/SPQReL/worktree/spqrel_navigation/src/srrg_path_map/dijkstra_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iocchi/src/spqrel_navigation/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object naoqi/CMakeFiles/dijkstra_test.dir/__/src/srrg_path_map/dijkstra_test.cpp.o"
+	cd /home/iocchi/src/spqrel_navigation/build-linux64/naoqi && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dijkstra_test.dir/__/src/srrg_path_map/dijkstra_test.cpp.o -c /home/iocchi/src/spqrel_navigation/src/srrg_path_map/dijkstra_test.cpp
 
 naoqi/CMakeFiles/dijkstra_test.dir/__/src/srrg_path_map/dijkstra_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dijkstra_test.dir/__/src/srrg_path_map/dijkstra_test.cpp.i"
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/workspace/SPQReL/worktree/spqrel_navigation/src/srrg_path_map/dijkstra_test.cpp > CMakeFiles/dijkstra_test.dir/__/src/srrg_path_map/dijkstra_test.cpp.i
+	cd /home/iocchi/src/spqrel_navigation/build-linux64/naoqi && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iocchi/src/spqrel_navigation/src/srrg_path_map/dijkstra_test.cpp > CMakeFiles/dijkstra_test.dir/__/src/srrg_path_map/dijkstra_test.cpp.i
 
 naoqi/CMakeFiles/dijkstra_test.dir/__/src/srrg_path_map/dijkstra_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dijkstra_test.dir/__/src/srrg_path_map/dijkstra_test.cpp.s"
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/workspace/SPQReL/worktree/spqrel_navigation/src/srrg_path_map/dijkstra_test.cpp -o CMakeFiles/dijkstra_test.dir/__/src/srrg_path_map/dijkstra_test.cpp.s
+	cd /home/iocchi/src/spqrel_navigation/build-linux64/naoqi && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iocchi/src/spqrel_navigation/src/srrg_path_map/dijkstra_test.cpp -o CMakeFiles/dijkstra_test.dir/__/src/srrg_path_map/dijkstra_test.cpp.s
 
 naoqi/CMakeFiles/dijkstra_test.dir/__/src/srrg_path_map/dijkstra_test.cpp.o.requires:
 
@@ -92,13 +92,13 @@ sdk/bin/dijkstra_test: naoqi/CMakeFiles/dijkstra_test.dir/__/src/srrg_path_map/d
 sdk/bin/dijkstra_test: naoqi/CMakeFiles/dijkstra_test.dir/build.make
 sdk/bin/dijkstra_test: sdk/lib/libsrrg_path_map_library.so
 sdk/bin/dijkstra_test: sdk/lib/libsrrg_system_utils_yaml.so
-sdk/bin/dijkstra_test: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libopencv_highgui.so
-sdk/bin/dijkstra_test: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libopencv_imgproc.so
-sdk/bin/dijkstra_test: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libopencv_core.so
-sdk/bin/dijkstra_test: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libz.so
+sdk/bin/dijkstra_test: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libopencv_highgui.so
+sdk/bin/dijkstra_test: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libopencv_imgproc.so
+sdk/bin/dijkstra_test: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libopencv_core.so
+sdk/bin/dijkstra_test: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libz.so
 sdk/bin/dijkstra_test: naoqi/CMakeFiles/dijkstra_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../sdk/bin/dijkstra_test"
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dijkstra_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iocchi/src/spqrel_navigation/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../sdk/bin/dijkstra_test"
+	cd /home/iocchi/src/spqrel_navigation/build-linux64/naoqi && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dijkstra_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 naoqi/CMakeFiles/dijkstra_test.dir/build: sdk/bin/dijkstra_test
@@ -110,10 +110,10 @@ naoqi/CMakeFiles/dijkstra_test.dir/requires: naoqi/CMakeFiles/dijkstra_test.dir/
 .PHONY : naoqi/CMakeFiles/dijkstra_test.dir/requires
 
 naoqi/CMakeFiles/dijkstra_test.dir/clean:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi && $(CMAKE_COMMAND) -P CMakeFiles/dijkstra_test.dir/cmake_clean.cmake
+	cd /home/iocchi/src/spqrel_navigation/build-linux64/naoqi && $(CMAKE_COMMAND) -P CMakeFiles/dijkstra_test.dir/cmake_clean.cmake
 .PHONY : naoqi/CMakeFiles/dijkstra_test.dir/clean
 
 naoqi/CMakeFiles/dijkstra_test.dir/depend:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marc/workspace/SPQReL/worktree/spqrel_navigation /home/marc/workspace/SPQReL/worktree/spqrel_navigation/naoqi /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64 /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-linux64/naoqi/CMakeFiles/dijkstra_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/iocchi/src/spqrel_navigation/build-linux64 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iocchi/src/spqrel_navigation /home/iocchi/src/spqrel_navigation/naoqi /home/iocchi/src/spqrel_navigation/build-linux64 /home/iocchi/src/spqrel_navigation/build-linux64/naoqi /home/iocchi/src/spqrel_navigation/build-linux64/naoqi/CMakeFiles/dijkstra_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : naoqi/CMakeFiles/dijkstra_test.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marc/workspace/SPQReL/worktree/spqrel_navigation
+CMAKE_SOURCE_DIR = /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper
+CMAKE_BINARY_DIR = /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper
 
 # Include any dependencies generated for this target.
 include naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/depend.make
@@ -59,16 +59,16 @@ include naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/flags
 
 naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/naoqi_sensor_utils.cpp.o: naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/flags.make
 naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/naoqi_sensor_utils.cpp.o: ../naoqi/naoqi_sensor_utils/naoqi_sensor_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/naoqi_sensor_utils.cpp.o"
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/naoqi/naoqi_sensor_utils && /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/naoqi_sensor_utils_library.dir/naoqi_sensor_utils.cpp.o -c /home/marc/workspace/SPQReL/worktree/spqrel_navigation/naoqi/naoqi_sensor_utils/naoqi_sensor_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/naoqi_sensor_utils.cpp.o"
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/naoqi/naoqi_sensor_utils && /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/naoqi_sensor_utils_library.dir/naoqi_sensor_utils.cpp.o -c /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/naoqi/naoqi_sensor_utils/naoqi_sensor_utils.cpp
 
 naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/naoqi_sensor_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/naoqi_sensor_utils_library.dir/naoqi_sensor_utils.cpp.i"
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/naoqi/naoqi_sensor_utils && /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/workspace/SPQReL/worktree/spqrel_navigation/naoqi/naoqi_sensor_utils/naoqi_sensor_utils.cpp > CMakeFiles/naoqi_sensor_utils_library.dir/naoqi_sensor_utils.cpp.i
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/naoqi/naoqi_sensor_utils && /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/naoqi/naoqi_sensor_utils/naoqi_sensor_utils.cpp > CMakeFiles/naoqi_sensor_utils_library.dir/naoqi_sensor_utils.cpp.i
 
 naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/naoqi_sensor_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/naoqi_sensor_utils_library.dir/naoqi_sensor_utils.cpp.s"
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/naoqi/naoqi_sensor_utils && /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/workspace/SPQReL/worktree/spqrel_navigation/naoqi/naoqi_sensor_utils/naoqi_sensor_utils.cpp -o CMakeFiles/naoqi_sensor_utils_library.dir/naoqi_sensor_utils.cpp.s
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/naoqi/naoqi_sensor_utils && /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/naoqi/naoqi_sensor_utils/naoqi_sensor_utils.cpp -o CMakeFiles/naoqi_sensor_utils_library.dir/naoqi_sensor_utils.cpp.s
 
 naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/naoqi_sensor_utils.cpp.o.requires:
 
@@ -90,46 +90,46 @@ naoqi_sensor_utils_library_EXTERNAL_OBJECTS =
 
 sdk/lib/libnaoqi_sensor_utils_library.so: naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/naoqi_sensor_utils.cpp.o
 sdk/lib/libnaoqi_sensor_utils_library.so: naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/build.make
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libnaoqi/lib/libalproxies.so
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libnaoqi/lib/libalcommon.so
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_signals.so.1.59.0
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libnaoqi/lib/librttools.so
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libnaoqi/lib/libalvalue.so
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libnaoqi/lib/libalerror.so
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libqi/lib/libqi.so
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_atomic.so.1.59.0
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_date_time.so.1.59.0
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_filesystem.so.1.59.0
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_regex.so.1.59.0
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_program_options.so.1.59.0
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/openssl/lib/libssl.so.1.0.0
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/openssl/lib/libcrypto.so.1.0.0
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_locale.so.1.59.0
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_thread.so.1.59.0
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_chrono.so.1.59.0
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_system.so.1.59.0
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/icu/lib/libicuuc.so.51
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/icu/lib/libicutu.so.51
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/icu/lib/libicutest.so.51
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/icu/lib/libiculx.so.51
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/icu/lib/libicule.so.51
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/icu/lib/libicuio.so.51
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/icu/lib/libicui18n.so.51
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/icu/lib/libicudata.so.51
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/systemd/lib/libnss_myhostname.so.2
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/systemd/lib/libsystemd.so.0
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/xz_utils/lib/liblzma.so.5
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/opencv2/lib/libopencv_core.so.2.4
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/zlib/lib/libz.so.1
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/tbb/lib/libtbbmalloc_proxy.so.2
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/tbb/lib/libtbbmalloc.so.2
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/tbb/lib/libtbb.so.2
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/lib/libdl.so
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/lib/libpthread.so
-sdk/lib/libnaoqi_sensor_utils_library.so: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/lib/librt.so
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/libnaoqi/lib/libalproxies.so
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/libnaoqi/lib/libalcommon.so
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_signals.so.1.59.0
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/libnaoqi/lib/librttools.so
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/libnaoqi/lib/libalvalue.so
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/libnaoqi/lib/libalerror.so
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/libqi/lib/libqi.so
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_atomic.so.1.59.0
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_date_time.so.1.59.0
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_filesystem.so.1.59.0
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_regex.so.1.59.0
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_program_options.so.1.59.0
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/openssl/lib/libssl.so.1.0.0
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/openssl/lib/libcrypto.so.1.0.0
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_locale.so.1.59.0
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_thread.so.1.59.0
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_chrono.so.1.59.0
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/boost/lib/libboost_system.so.1.59.0
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/icu/lib/libicuuc.so.51
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/icu/lib/libicutu.so.51
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/icu/lib/libicutest.so.51
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/icu/lib/libiculx.so.51
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/icu/lib/libicule.so.51
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/icu/lib/libicuio.so.51
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/icu/lib/libicui18n.so.51
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/icu/lib/libicudata.so.51
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/systemd/lib/libnss_myhostname.so.2
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/systemd/lib/libsystemd.so.0
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/xz_utils/lib/liblzma.so.5
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/opencv2/lib/libopencv_core.so.2.4
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/zlib/lib/libz.so.1
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/tbb/lib/libtbbmalloc_proxy.so.2
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/tbb/lib/libtbbmalloc.so.2
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/tbb/lib/libtbb.so.2
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/lib/libdl.so
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/lib/libpthread.so
+sdk/lib/libnaoqi_sensor_utils_library.so: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/lib/librt.so
 sdk/lib/libnaoqi_sensor_utils_library.so: naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../sdk/lib/libnaoqi_sensor_utils_library.so"
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/naoqi/naoqi_sensor_utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/naoqi_sensor_utils_library.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../sdk/lib/libnaoqi_sensor_utils_library.so"
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/naoqi/naoqi_sensor_utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/naoqi_sensor_utils_library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/build: sdk/lib/libnaoqi_sensor_utils_library.so
@@ -141,10 +141,10 @@ naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/requires: nao
 .PHONY : naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/requires
 
 naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/clean:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/naoqi/naoqi_sensor_utils && $(CMAKE_COMMAND) -P CMakeFiles/naoqi_sensor_utils_library.dir/cmake_clean.cmake
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/naoqi/naoqi_sensor_utils && $(CMAKE_COMMAND) -P CMakeFiles/naoqi_sensor_utils_library.dir/cmake_clean.cmake
 .PHONY : naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/clean
 
 naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/depend:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marc/workspace/SPQReL/worktree/spqrel_navigation /home/marc/workspace/SPQReL/worktree/spqrel_navigation/naoqi/naoqi_sensor_utils /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/naoqi/naoqi_sensor_utils /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/naoqi/naoqi_sensor_utils /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/naoqi/naoqi_sensor_utils /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : naoqi/naoqi_sensor_utils/CMakeFiles/naoqi_sensor_utils_library.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marc/workspace/SPQReL/worktree/spqrel_navigation
+CMAKE_SOURCE_DIR = /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper
+CMAKE_BINARY_DIR = /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper
 
 # Include any dependencies generated for this target.
 include naoqi/CMakeFiles/distance_map_test.dir/depend.make
@@ -59,16 +59,16 @@ include naoqi/CMakeFiles/distance_map_test.dir/flags.make
 
 naoqi/CMakeFiles/distance_map_test.dir/__/src/srrg_path_map/distance_map_test.cpp.o: naoqi/CMakeFiles/distance_map_test.dir/flags.make
 naoqi/CMakeFiles/distance_map_test.dir/__/src/srrg_path_map/distance_map_test.cpp.o: ../src/srrg_path_map/distance_map_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object naoqi/CMakeFiles/distance_map_test.dir/__/src/srrg_path_map/distance_map_test.cpp.o"
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/naoqi && /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/distance_map_test.dir/__/src/srrg_path_map/distance_map_test.cpp.o -c /home/marc/workspace/SPQReL/worktree/spqrel_navigation/src/srrg_path_map/distance_map_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object naoqi/CMakeFiles/distance_map_test.dir/__/src/srrg_path_map/distance_map_test.cpp.o"
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/naoqi && /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/distance_map_test.dir/__/src/srrg_path_map/distance_map_test.cpp.o -c /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/src/srrg_path_map/distance_map_test.cpp
 
 naoqi/CMakeFiles/distance_map_test.dir/__/src/srrg_path_map/distance_map_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/distance_map_test.dir/__/src/srrg_path_map/distance_map_test.cpp.i"
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/naoqi && /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/workspace/SPQReL/worktree/spqrel_navigation/src/srrg_path_map/distance_map_test.cpp > CMakeFiles/distance_map_test.dir/__/src/srrg_path_map/distance_map_test.cpp.i
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/naoqi && /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/src/srrg_path_map/distance_map_test.cpp > CMakeFiles/distance_map_test.dir/__/src/srrg_path_map/distance_map_test.cpp.i
 
 naoqi/CMakeFiles/distance_map_test.dir/__/src/srrg_path_map/distance_map_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/distance_map_test.dir/__/src/srrg_path_map/distance_map_test.cpp.s"
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/naoqi && /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/workspace/SPQReL/worktree/spqrel_navigation/src/srrg_path_map/distance_map_test.cpp -o CMakeFiles/distance_map_test.dir/__/src/srrg_path_map/distance_map_test.cpp.s
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/naoqi && /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../..//bin/i686-aldebaran-linux-gnu-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/src/srrg_path_map/distance_map_test.cpp -o CMakeFiles/distance_map_test.dir/__/src/srrg_path_map/distance_map_test.cpp.s
 
 naoqi/CMakeFiles/distance_map_test.dir/__/src/srrg_path_map/distance_map_test.cpp.o.requires:
 
@@ -92,64 +92,64 @@ sdk/bin/distance_map_test: naoqi/CMakeFiles/distance_map_test.dir/__/src/srrg_pa
 sdk/bin/distance_map_test: naoqi/CMakeFiles/distance_map_test.dir/build.make
 sdk/bin/distance_map_test: sdk/lib/libsrrg_path_map_library.so
 sdk/bin/distance_map_test: sdk/lib/libsrrg_system_utils_yaml.so
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/opencv2/lib/libopencv_highgui.so.2.4
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/opencv2/lib/libopencv_core.so.2.4
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/tbb/lib/libtbbmalloc_proxy.so.2
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/tbb/lib/libtbbmalloc.so.2
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/tbb/lib/libtbb.so.2
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/png/lib/libpng16.so.16
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/tiff/lib/libtiffxx.so.5
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/tiff/lib/libtiff.so.5
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/v4l/lib/libv4lconvert.so.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/v4l/lib/libv4l2.so.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/v4l/lib/libv4l1.so.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/jpeg/lib/libjpeg.so.62
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/ffmpeg/lib/libswscale.so.2
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/ffmpeg/lib/libswresample.so.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/ffmpeg/lib/libavutil.so.52
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/ffmpeg/lib/libavresample.so.1
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/ffmpeg/lib/libavformat.so.54
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/ffmpeg/lib/libavfilter.so.3
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/ffmpeg/lib/libavcodec.so.54
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/vo-aacenc/lib/libvo-aacenc.so.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libtheora/lib/libtheoraenc.so.1
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libtheora/lib/libtheoradec.so.1
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libtheora/lib/libtheora.so.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/speex/lib/libspeexdsp.so.1
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/speex/lib/libspeex.so.1
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/opus/lib/libopus.so.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/alsa/lib/libasound.so.2
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/pulseaudio/lib/libpulse-simple.so.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/pulseaudio/lib/libpulse.so.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/systemd/lib/libnss_myhostname.so.2
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/systemd/lib/libsystemd.so.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/xz_utils/lib/liblzma.so.5
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/json-c/lib/libjson-c.so.2
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/tcp-wrappers/lib/libwrap.so.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/sndfile/lib/libsndfile.so.1
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/flac/lib/libFLAC++.so.6
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/flac/lib/libFLAC.so.8
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/vorbis/lib/libvorbisfile.so.3
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/vorbis/lib/libvorbisenc.so.2
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/vorbis/lib/libvorbis.so.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/ogg/lib/libogg.so.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/libasyncns/lib/libasyncns.so.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/dbus-1/lib/libdbus-1.so.3
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/gdbm/lib/libgdbm_compat.so.3
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/gdbm/lib/libgdbm.so.3
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/lib/libpthread.so
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/lib/librt.so
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/openssl/lib/libssl.so.1.0.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/openssl/lib/libcrypto.so.1.0.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/lib/libdl.so
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/zlib/lib/libz.so.1
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/bzip2/lib/libbz2.so.1
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/opencore-amr/lib/libopencore-amrnb.so.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/opencore-amr/lib/libopencore-amrwb.so.0
-sdk/bin/distance_map_test: /home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/vo-amrwbenc/lib/libvo-amrwbenc.so.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/opencv2/lib/libopencv_highgui.so.2.4
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/opencv2/lib/libopencv_core.so.2.4
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/tbb/lib/libtbbmalloc_proxy.so.2
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/tbb/lib/libtbbmalloc.so.2
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/tbb/lib/libtbb.so.2
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/png/lib/libpng16.so.16
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/tiff/lib/libtiffxx.so.5
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/tiff/lib/libtiff.so.5
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/v4l/lib/libv4lconvert.so.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/v4l/lib/libv4l2.so.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/v4l/lib/libv4l1.so.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/jpeg/lib/libjpeg.so.62
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/ffmpeg/lib/libswscale.so.2
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/ffmpeg/lib/libswresample.so.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/ffmpeg/lib/libavutil.so.52
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/ffmpeg/lib/libavresample.so.1
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/ffmpeg/lib/libavformat.so.54
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/ffmpeg/lib/libavfilter.so.3
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/ffmpeg/lib/libavcodec.so.54
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/vo-aacenc/lib/libvo-aacenc.so.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/libtheora/lib/libtheoraenc.so.1
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/libtheora/lib/libtheoradec.so.1
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/libtheora/lib/libtheora.so.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/speex/lib/libspeexdsp.so.1
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/speex/lib/libspeex.so.1
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/opus/lib/libopus.so.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/alsa/lib/libasound.so.2
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/pulseaudio/lib/libpulse-simple.so.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/pulseaudio/lib/libpulse.so.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/systemd/lib/libnss_myhostname.so.2
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/systemd/lib/libsystemd.so.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/xz_utils/lib/liblzma.so.5
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/json-c/lib/libjson-c.so.2
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/tcp-wrappers/lib/libwrap.so.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/sndfile/lib/libsndfile.so.1
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/flac/lib/libFLAC++.so.6
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/flac/lib/libFLAC.so.8
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/vorbis/lib/libvorbisfile.so.3
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/vorbis/lib/libvorbisenc.so.2
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/vorbis/lib/libvorbis.so.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/ogg/lib/libogg.so.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/libasyncns/lib/libasyncns.so.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/dbus-1/lib/libdbus-1.so.3
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/gdbm/lib/libgdbm_compat.so.3
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/gdbm/lib/libgdbm.so.3
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/lib/libpthread.so
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/lib/librt.so
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/openssl/lib/libssl.so.1.0.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/openssl/lib/libcrypto.so.1.0.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/lib/libdl.so
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/zlib/lib/libz.so.1
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/bzip2/lib/libbz2.so.1
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/opencore-amr/lib/libopencore-amrnb.so.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/opencore-amr/lib/libopencore-amrwb.so.0
+sdk/bin/distance_map_test: /opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/vo-amrwbenc/lib/libvo-amrwbenc.so.0
 sdk/bin/distance_map_test: naoqi/CMakeFiles/distance_map_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../sdk/bin/distance_map_test"
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/naoqi && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/distance_map_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../sdk/bin/distance_map_test"
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/naoqi && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/distance_map_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 naoqi/CMakeFiles/distance_map_test.dir/build: sdk/bin/distance_map_test
@@ -161,10 +161,10 @@ naoqi/CMakeFiles/distance_map_test.dir/requires: naoqi/CMakeFiles/distance_map_t
 .PHONY : naoqi/CMakeFiles/distance_map_test.dir/requires
 
 naoqi/CMakeFiles/distance_map_test.dir/clean:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/naoqi && $(CMAKE_COMMAND) -P CMakeFiles/distance_map_test.dir/cmake_clean.cmake
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/naoqi && $(CMAKE_COMMAND) -P CMakeFiles/distance_map_test.dir/cmake_clean.cmake
 .PHONY : naoqi/CMakeFiles/distance_map_test.dir/clean
 
 naoqi/CMakeFiles/distance_map_test.dir/depend:
-	cd /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marc/workspace/SPQReL/worktree/spqrel_navigation /home/marc/workspace/SPQReL/worktree/spqrel_navigation/naoqi /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/naoqi /home/marc/workspace/SPQReL/worktree/spqrel_navigation/build-pepper/naoqi/CMakeFiles/distance_map_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/naoqi /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/naoqi /home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/build-pepper/naoqi/CMakeFiles/distance_map_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : naoqi/CMakeFiles/distance_map_test.dir/depend
 
