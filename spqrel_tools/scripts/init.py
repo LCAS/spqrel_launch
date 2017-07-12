@@ -28,17 +28,13 @@ def main():
                "Please check your script arguments. Run with -h option for help.")
         sys.exit(1)
 
-    time.sleep(10)
-
     tts_service = session.service("ALTextToSpeech")
     tts_service.say("Initialization started.")
 
-    print "Waiting 20 seconds..."
-    time.sleep(20)
     webinit.do_init(session)
-    time.sleep(5)
+    time.sleep(3)
     behaviorinit.do_init(session)
-    time.sleep(5)
+    time.sleep(3)
     postureinit.do_init(session)
 
     tts_service.say("Initialization completed.")
