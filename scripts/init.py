@@ -4,7 +4,7 @@ import sys
 import time
 import os
 
-import webinit, posture
+import webinit, postureinit, behaviorinit
 
 def main():
     parser = argparse.ArgumentParser()
@@ -26,12 +26,16 @@ def main():
                "Please check your script arguments. Run with -h option for help.")
         sys.exit(1)
 
-    time.sleep(20)
+    print "Waiting 20 seconds..."
+    time.sleep(2)
     webinit.do_init(session)
     time.sleep(5)
     behaviorinit.do_init(session)
     time.sleep(5)
     postureinit.do_init(session)
+
+    tts_service = session.service("ALTextToSpeech")
+    tts_service.say("Initialization completed.")
 
 if __name__ == "__main__":
     main()

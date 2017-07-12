@@ -4,9 +4,12 @@ import sys
 import time
 import os
 
+postureinit = "Stand"
+
 def do_init(session):
+    print "Init posture to "+postureinit
     posture_service = session.service("ALRobotPosture")
-    posture_service.goToPosture("Stand",0.5)
+    posture_service.goToPosture(postureinit,0.5)
 
 
 

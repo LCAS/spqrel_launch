@@ -7,6 +7,8 @@ import os
 behavior_name = "start_proxies-3eff2a/start_proxies" 
 
 def do_init(session):
+    print "Init behavior ", behavior_name
+
     behavior_mng_service = session.service("ALBehaviorManager")
     if (behavior_mng_service.isBehaviorInstalled(behavior_name)):
         # Check that it is not already running.

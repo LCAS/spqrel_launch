@@ -4,8 +4,11 @@ import sys
 import time
 import os
 
+webpageinit = "http://198.18.0.1/apps/spqrel/img/logo.gif"
 
 def do_init(session):
+    print "Init webpage to ",webpageinit
+
     tablet_service = session.service("ALTabletService")
 
     # Display a local image located in img folder in the root of the web server
@@ -14,7 +17,7 @@ def do_init(session):
 
     # tablet_service.showWebview("http://198.18.0.1/apps/spqrel")
 
-    tablet_service.showImage("http://198.18.0.1/apps/spqrel/img/logo.gif")
+    tablet_service.showImage(webpageinit)
 
     #time.sleep(10)
 
