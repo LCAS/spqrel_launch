@@ -6,49 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/src/srrg_system_utils/system_utils.cpp
-iostream
--
-fstream
--
-sys/stat.h
--
-system_utils.h
-/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/src/srrg_system_utils/system_utils.h
-
-/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/src/srrg_system_utils/system_utils.h
-string
--
-sys/time.h
--
-sys/resource.h
--
-
-/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/src/yaml_parser/simple_yaml_parser.cpp
-simple_yaml_parser.h
-/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/src/yaml_parser/simple_yaml_parser.h
-
-/home/iocchi/src/SPQREL/qi_ws/spqrel_navigation/src/yaml_parser/simple_yaml_parser.h
-string
--
-iostream
--
-fstream
--
-map
--
-Eigen/Core
--
-
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/Core
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/Core
 src/Core/util/DisableStupidWarnings.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
 src/Core/util/Macros.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/Macros.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/Macros.h
 complex
 -
 src/Core/util/MKL_support.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/MKL_support.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/MKL_support.h
 malloc.h
 -
 emmintrin.h
@@ -100,497 +66,497 @@ intrin.h
 new
 -
 src/Core/util/Constants.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/Constants.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/Constants.h
 src/Core/util/ForwardDeclarations.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h
 src/Core/util/Meta.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/Meta.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/Meta.h
 src/Core/util/XprHelper.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/XprHelper.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/XprHelper.h
 src/Core/util/StaticAssert.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/StaticAssert.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/StaticAssert.h
 src/Core/util/Memory.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/Memory.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/Memory.h
 src/Core/NumTraits.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/NumTraits.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/NumTraits.h
 src/Core/MathFunctions.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/MathFunctions.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/MathFunctions.h
 src/Core/GenericPacketMath.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/GenericPacketMath.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/GenericPacketMath.h
 src/Core/arch/SSE/PacketMath.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
 src/Core/arch/SSE/MathFunctions.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
 src/Core/arch/SSE/Complex.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h
 src/Core/arch/AltiVec/PacketMath.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 src/Core/arch/AltiVec/Complex.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
 src/Core/arch/NEON/PacketMath.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
 src/Core/arch/NEON/Complex.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
 src/Core/arch/Default/Settings.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 src/Core/Functors.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Functors.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Functors.h
 src/Core/DenseCoeffsBase.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h
 src/Core/DenseBase.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DenseBase.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DenseBase.h
 src/Core/MatrixBase.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/MatrixBase.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/MatrixBase.h
 src/Core/EigenBase.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/EigenBase.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/EigenBase.h
 src/Core/Assign.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Assign.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Assign.h
 src/Core/util/BlasUtil.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/BlasUtil.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/BlasUtil.h
 src/Core/DenseStorage.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DenseStorage.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DenseStorage.h
 src/Core/NestByValue.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/NestByValue.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/NestByValue.h
 src/Core/ForceAlignedAccess.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ForceAlignedAccess.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ForceAlignedAccess.h
 src/Core/ReturnByValue.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ReturnByValue.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ReturnByValue.h
 src/Core/NoAlias.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/NoAlias.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/NoAlias.h
 src/Core/PlainObjectBase.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/PlainObjectBase.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/PlainObjectBase.h
 src/Core/Matrix.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Matrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Matrix.h
 src/Core/Array.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Array.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Array.h
 src/Core/CwiseBinaryOp.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
 src/Core/CwiseUnaryOp.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
 src/Core/CwiseNullaryOp.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
 src/Core/CwiseUnaryView.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
 src/Core/SelfCwiseBinaryOp.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
 src/Core/Dot.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Dot.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Dot.h
 src/Core/StableNorm.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/StableNorm.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/StableNorm.h
 src/Core/MapBase.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/MapBase.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/MapBase.h
 src/Core/Stride.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Stride.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Stride.h
 src/Core/Map.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Map.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Map.h
 src/Core/Block.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Block.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Block.h
 src/Core/VectorBlock.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/VectorBlock.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/VectorBlock.h
 src/Core/Transpose.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Transpose.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Transpose.h
 src/Core/DiagonalMatrix.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DiagonalMatrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DiagonalMatrix.h
 src/Core/Diagonal.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Diagonal.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Diagonal.h
 src/Core/DiagonalProduct.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DiagonalProduct.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DiagonalProduct.h
 src/Core/PermutationMatrix.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/PermutationMatrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/PermutationMatrix.h
 src/Core/Transpositions.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Transpositions.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Transpositions.h
 src/Core/Redux.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Redux.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Redux.h
 src/Core/Visitor.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Visitor.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Visitor.h
 src/Core/Fuzzy.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Fuzzy.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Fuzzy.h
 src/Core/IO.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/IO.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/IO.h
 src/Core/Swap.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Swap.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Swap.h
 src/Core/CommaInitializer.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CommaInitializer.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CommaInitializer.h
 src/Core/Flagged.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Flagged.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Flagged.h
 src/Core/ProductBase.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ProductBase.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ProductBase.h
 src/Core/GeneralProduct.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/GeneralProduct.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/GeneralProduct.h
 src/Core/TriangularMatrix.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/TriangularMatrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/TriangularMatrix.h
 src/Core/SelfAdjointView.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/SelfAdjointView.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/SelfAdjointView.h
 src/Core/products/GeneralBlockPanelKernel.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
 src/Core/products/Parallelizer.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/Parallelizer.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/Parallelizer.h
 src/Core/products/CoeffBasedProduct.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/CoeffBasedProduct.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/CoeffBasedProduct.h
 src/Core/products/GeneralMatrixVector.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
 src/Core/products/GeneralMatrixMatrix.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
 src/Core/SolveTriangular.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/SolveTriangular.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/SolveTriangular.h
 src/Core/products/GeneralMatrixMatrixTriangular.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
 src/Core/products/SelfadjointMatrixVector.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
 src/Core/products/SelfadjointMatrixMatrix.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
 src/Core/products/SelfadjointProduct.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
 src/Core/products/SelfadjointRank2Update.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
 src/Core/products/TriangularMatrixVector.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
 src/Core/products/TriangularMatrixMatrix.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
 src/Core/products/TriangularSolverMatrix.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
 src/Core/products/TriangularSolverVector.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
 src/Core/BandMatrix.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/BandMatrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/BandMatrix.h
 src/Core/BooleanRedux.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/BooleanRedux.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/BooleanRedux.h
 src/Core/Select.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Select.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Select.h
 src/Core/VectorwiseOp.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/VectorwiseOp.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/VectorwiseOp.h
 src/Core/Random.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Random.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Random.h
 src/Core/Replicate.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Replicate.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Replicate.h
 src/Core/Reverse.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Reverse.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Reverse.h
 src/Core/ArrayBase.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ArrayBase.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ArrayBase.h
 src/Core/ArrayWrapper.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ArrayWrapper.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ArrayWrapper.h
 src/Core/products/GeneralMatrixMatrix_MKL.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_MKL.h
 src/Core/products/GeneralMatrixVector_MKL.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_MKL.h
 src/Core/products/GeneralMatrixMatrixTriangular_MKL.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_MKL.h
 src/Core/products/SelfadjointMatrixMatrix_MKL.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_MKL.h
 src/Core/products/SelfadjointMatrixVector_MKL.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_MKL.h
 src/Core/products/TriangularMatrixMatrix_MKL.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_MKL.h
 src/Core/products/TriangularMatrixVector_MKL.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_MKL.h
 src/Core/products/TriangularSolverMatrix_MKL.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_MKL.h
 src/Core/Assign_MKL.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Assign_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Assign_MKL.h
 src/Core/GlobalFunctions.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/GlobalFunctions.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/GlobalFunctions.h
 src/Core/util/ReenableStupidWarnings.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
 Eigen2Support
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/Eigen2Support
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/Eigen2Support
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/Eigen2Support
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/Eigen2Support
 src/Core/util/DisableStupidWarnings.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
 src/Eigen2Support/Macros.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Macros.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Macros.h
 src/Eigen2Support/Memory.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Memory.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Memory.h
 src/Eigen2Support/Meta.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Meta.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Meta.h
 src/Eigen2Support/Lazy.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Lazy.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Lazy.h
 src/Eigen2Support/Cwise.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Cwise.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Cwise.h
 src/Eigen2Support/CwiseOperators.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/CwiseOperators.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/CwiseOperators.h
 src/Eigen2Support/TriangularSolver.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/TriangularSolver.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/TriangularSolver.h
 src/Eigen2Support/Block.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Block.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Block.h
 src/Eigen2Support/VectorBlock.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/VectorBlock.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/VectorBlock.h
 src/Eigen2Support/Minor.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Minor.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Minor.h
 src/Eigen2Support/MathFunctions.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/MathFunctions.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/MathFunctions.h
 src/Core/util/ReenableStupidWarnings.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
 iostream
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Array.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Array.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ArrayBase.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ArrayBase.h
 ../plugins/CommonCwiseUnaryOps.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
 ../plugins/MatrixCwiseUnaryOps.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 ../plugins/ArrayCwiseUnaryOps.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
 ../plugins/CommonCwiseBinaryOps.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
 ../plugins/MatrixCwiseBinaryOps.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
 ../plugins/ArrayCwiseBinaryOps.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ArrayWrapper.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ArrayWrapper.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Assign.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Assign.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Assign_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Assign_MKL.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/BandMatrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/BandMatrix.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Block.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Block.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/BooleanRedux.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/BooleanRedux.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CommaInitializer.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CommaInitializer.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DenseBase.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DenseBase.h
 ../plugins/BlockMethods.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/BlockMethods.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/BlockMethods.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DenseStorage.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DenseStorage.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Diagonal.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Diagonal.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DiagonalMatrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DiagonalMatrix.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DiagonalProduct.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/DiagonalProduct.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Dot.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Dot.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/EigenBase.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/EigenBase.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Flagged.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Flagged.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ForceAlignedAccess.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ForceAlignedAccess.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Functors.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Functors.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Fuzzy.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Fuzzy.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/GeneralProduct.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/GeneralProduct.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/GenericPacketMath.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/GenericPacketMath.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/GlobalFunctions.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/GlobalFunctions.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/IO.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/IO.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Map.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Map.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/MapBase.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/MapBase.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/MathFunctions.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/MathFunctions.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Matrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Matrix.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/MatrixBase.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/MatrixBase.h
 ../plugins/CommonCwiseUnaryOps.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
 ../plugins/CommonCwiseBinaryOps.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
 ../plugins/MatrixCwiseUnaryOps.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 ../plugins/MatrixCwiseBinaryOps.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/NestByValue.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/NestByValue.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/NoAlias.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/NoAlias.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/NumTraits.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/NumTraits.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/PermutationMatrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/PermutationMatrix.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/PlainObjectBase.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/PlainObjectBase.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ProductBase.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ProductBase.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Random.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Random.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Redux.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Redux.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Replicate.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Replicate.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ReturnByValue.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/ReturnByValue.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Reverse.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Reverse.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Select.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Select.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/SelfAdjointView.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/SelfAdjointView.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/SolveTriangular.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/SolveTriangular.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/StableNorm.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/StableNorm.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Stride.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Stride.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Swap.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Swap.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Transpose.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Transpose.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Transpositions.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Transpositions.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/TriangularMatrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/TriangularMatrix.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/VectorBlock.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/VectorBlock.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/VectorwiseOp.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/VectorwiseOp.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Visitor.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/Visitor.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/CoeffBasedProduct.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/CoeffBasedProduct.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_MKL.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_MKL.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_MKL.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/Parallelizer.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/Parallelizer.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_MKL.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_MKL.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_MKL.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_MKL.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_MKL.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_MKL.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/BlasUtil.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/BlasUtil.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/Constants.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/Constants.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/MKL_support.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/MKL_support.h
 mkl.h
 -
 mkl_lapacke.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/Macros.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/Macros.h
 cstdlib
 -
 iostream
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/Memory.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/Memory.h
 unistd.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/Meta.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/Meta.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/StaticAssert.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/StaticAssert.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/XprHelper.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Core/util/XprHelper.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Block.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Block.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Cwise.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Cwise.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/CwiseOperators.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/CwiseOperators.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Lazy.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Lazy.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Macros.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Macros.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/MathFunctions.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/MathFunctions.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Memory.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Memory.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Meta.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Meta.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Minor.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/Minor.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/TriangularSolver.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/TriangularSolver.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/VectorBlock.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/Eigen2Support/VectorBlock.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/BlockMethods.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/BlockMethods.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/eigen3/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/_G_config.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/_G_config.h
 bits/types.h
 -
 stddef.h
@@ -600,9 +566,9 @@ wchar.h
 gconv.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/byteswap-16.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/byteswap-16.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/byteswap.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/byteswap.h
 features.h
 -
 bits/types.h
@@ -612,69 +578,69 @@ bits/wordsize.h
 bits/byteswap-16.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/confname.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/confname.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/endian.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/endian.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/environments.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/environments.h
 bits/wordsize.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/libc-lock.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/libc-lock.h
 pthread.h
 -
 stddef.h
 -
 libc-lockP.h
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/libc-lockP.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/libc-lockP.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/libio-ldbl.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/libio-ldbl.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/posix_opt.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/posix_opt.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/pthreadtypes.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/pthreadtypes.h
 bits/wordsize.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/resource.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/resource.h
 bits/types.h
 -
 bits/time.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/sched.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/sched.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/select.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/select.h
 bits/wordsize.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/select2.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/select2.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/setjmp.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/setjmp.h
 bits/wordsize.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/sigset.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/sigset.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/stat.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/stat.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/stdio-ldbl.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/stdio-ldbl.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/stdio-lock.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/stdio-lock.h
 bits/libc-lock.h
 -
 lowlevellock.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/stdio.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/stdio.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/stdio2.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/stdio2.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/stdio_lim.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/stdio_lim.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/sys_errlist.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/sys_errlist.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/time.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/time.h
 bits/types.h
 -
 bits/types.h
@@ -682,11 +648,11 @@ bits/types.h
 bits/timex.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/timex.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/timex.h
 bits/types.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/types.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/types.h
 features.h
 -
 bits/wordsize.h
@@ -694,19 +660,19 @@ bits/wordsize.h
 bits/typesizes.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/typesizes.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/typesizes.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/unistd.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/unistd.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/wchar-ldbl.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/wchar-ldbl.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/wchar.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/wchar.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/wchar2.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/wchar2.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/wordsize.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/bits/wordsize.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/ctype.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/ctype.h
 features.h
 -
 bits/types.h
@@ -716,7 +682,7 @@ endian.h
 xlocale.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/endian.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/endian.h
 features.h
 -
 bits/endian.h
@@ -724,7 +690,7 @@ bits/endian.h
 bits/byteswap.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/features.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/features.h
 stdc-predef.h
 -
 sys/cdefs.h
@@ -732,7 +698,7 @@ sys/cdefs.h
 gnu/stubs.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/gconv.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/gconv.h
 features.h
 -
 wchar.h
@@ -740,13 +706,13 @@ wchar.h
 stddef.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/getopt.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/getopt.h
 ctype.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/gnu/stubs-32.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/gnu/stubs-32.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/gnu/stubs.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/gnu/stubs.h
 gnu/stubs-32.h
 -
 gnu/stubs-64.h
@@ -754,7 +720,7 @@ gnu/stubs-64.h
 gnu/stubs-x32.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/libio.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/libio.h
 _G_config.h
 -
 stdarg.h
@@ -768,7 +734,7 @@ shlib-compat.h
 bits/libio-ldbl.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/malloc.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/malloc.h
 features.h
 -
 stddef.h
@@ -776,7 +742,7 @@ stddef.h
 stdio.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/pthread.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/pthread.h
 features.h
 -
 endian.h
@@ -792,7 +758,7 @@ bits/setjmp.h
 bits/wordsize.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/sched.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/sched.h
 features.h
 -
 bits/types.h
@@ -804,9 +770,9 @@ time.h
 bits/sched.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/stdc-predef.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/stdc-predef.h
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/stdio.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/stdio.h
 features.h
 -
 stddef.h
@@ -830,19 +796,19 @@ bits/stdio2.h
 bits/stdio-ldbl.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/sys/cdefs.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/sys/cdefs.h
 features.h
 -
 bits/wordsize.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/sys/resource.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/sys/resource.h
 features.h
 -
 bits/resource.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/sys/select.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/sys/select.h
 features.h
 -
 bits/types.h
@@ -858,7 +824,7 @@ bits/time.h
 bits/select2.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/sys/stat.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/sys/stat.h
 features.h
 -
 bits/types.h
@@ -868,7 +834,7 @@ time.h
 bits/stat.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/sys/time.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/sys/time.h
 features.h
 -
 bits/types.h
@@ -880,7 +846,7 @@ bits/time.h
 sys/select.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/time.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/time.h
 features.h
 -
 stddef.h
@@ -900,7 +866,7 @@ bits/types.h
 xlocale.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/unistd.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/unistd.h
 features.h
 -
 bits/posix_opt.h
@@ -918,7 +884,7 @@ getopt.h
 bits/unistd.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/wchar.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/wchar.h
 features.h
 -
 stdio.h
@@ -944,7 +910,7 @@ bits/wchar2.h
 bits/wchar-ldbl.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/wctype.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/wctype.h
 features.h
 -
 bits/types.h
@@ -956,5 +922,39 @@ endian.h
 xlocale.h
 -
 
-/opt/Aldebaran/naoqi/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/xlocale.h
+/home/marc/workspace/SPQReL/ctc-linux64-atom-2.5.2.74/share/cmake/toolchain/linux64_cross_x86/../../../../i686-aldebaran-linux-gnu/sysroot/usr/include/xlocale.h
+
+/home/marc/workspace/SPQReL/worktree/spqrel_navigation/src/srrg_system_utils/system_utils.cpp
+iostream
+-
+fstream
+-
+sys/stat.h
+-
+system_utils.h
+/home/marc/workspace/SPQReL/worktree/spqrel_navigation/src/srrg_system_utils/system_utils.h
+
+/home/marc/workspace/SPQReL/worktree/spqrel_navigation/src/srrg_system_utils/system_utils.h
+string
+-
+sys/time.h
+-
+sys/resource.h
+-
+
+/home/marc/workspace/SPQReL/worktree/spqrel_navigation/src/yaml_parser/simple_yaml_parser.cpp
+simple_yaml_parser.h
+/home/marc/workspace/SPQReL/worktree/spqrel_navigation/src/yaml_parser/simple_yaml_parser.h
+
+/home/marc/workspace/SPQReL/worktree/spqrel_navigation/src/yaml_parser/simple_yaml_parser.h
+string
+-
+iostream
+-
+fstream
+-
+map
+-
+Eigen/Core
+-
 

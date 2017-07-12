@@ -1,47 +1,32 @@
 
 Generation of PNP 'helpmecarry'
-plan read:  waitfor_personhere; dialogue_follow; follow; # er: stopfollowing -> skip_action memorize_car; dialogue_lookforhelp; goto_assistlocation; # er: personhere -> dialogue_whattime; waitfor_not_personhere; restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-current plan:  waitfor_personhere; dialogue_follow; follow; # er: stopfollowing -> skip_action memorize_car; dialogue_lookforhelp; goto_assistlocation; # er: personhere -> dialogue_whattime; waitfor_not_personhere; restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-rest of the plan:  dialogue_follow; follow; # er: stopfollowing -> skip_action memorize_car; dialogue_lookforhelp; goto_assistlocation; # er: personhere -> dialogue_whattime; waitfor_not_personhere; restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
+plan read:  goto_exit; turn_130_ABS; headpose_0_-3; waitfor_personhere; say_hello; followuntil_screentouched; say_goodbye; headpose_0_0;
+current plan:  goto_exit; turn_130_ABS; headpose_0_-3; waitfor_personhere; say_hello; followuntil_screentouched; say_goodbye; headpose_0_0;
+rest of the plan:  turn_130_ABS; headpose_0_-3; waitfor_personhere; say_hello; followuntil_screentouched; say_goodbye; headpose_0_0;
+..adding action: goto_exit
+current plan:  turn_130_ABS; headpose_0_-3; waitfor_personhere; say_hello; followuntil_screentouched; say_goodbye; headpose_0_0;
+rest of the plan:  headpose_0_-3; waitfor_personhere; say_hello; followuntil_screentouched; say_goodbye; headpose_0_0;
+..adding action: turn_130_ABS
+current plan:  headpose_0_-3; waitfor_personhere; say_hello; followuntil_screentouched; say_goodbye; headpose_0_0;
+rest of the plan:  waitfor_personhere; say_hello; followuntil_screentouched; say_goodbye; headpose_0_0;
+..adding action: headpose_0_-3
+current plan:  waitfor_personhere; say_hello; followuntil_screentouched; say_goodbye; headpose_0_0;
+rest of the plan:  say_hello; followuntil_screentouched; say_goodbye; headpose_0_0;
 ..adding action: waitfor_personhere
-current plan:  dialogue_follow; follow; # er: stopfollowing -> skip_action memorize_car; dialogue_lookforhelp; goto_assistlocation; # er: personhere -> dialogue_whattime; waitfor_not_personhere; restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-rest of the plan:  follow; # er: stopfollowing -> skip_action memorize_car; dialogue_lookforhelp; goto_assistlocation; # er: personhere -> dialogue_whattime; waitfor_not_personhere; restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-..adding action: dialogue_follow
-current plan:  follow; # er: stopfollowing -> skip_action memorize_car; dialogue_lookforhelp; goto_assistlocation; # er: personhere -> dialogue_whattime; waitfor_not_personhere; restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-rest of the plan:  # er: stopfollowing -> skip_action memorize_car; dialogue_lookforhelp; goto_assistlocation; # er: personhere -> dialogue_whattime; waitfor_not_personhere; restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-..adding action: follow
-current plan:  # er: stopfollowing -> skip_action memorize_car; dialogue_lookforhelp; goto_assistlocation; # er: personhere -> dialogue_whattime; waitfor_not_personhere; restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-rest of the plan:  dialogue_lookforhelp; goto_assistlocation; # er: personhere -> dialogue_whattime; waitfor_not_personhere; restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-..adding action: # er: stopfollowing - skip_action memorize_car
-current plan:  dialogue_lookforhelp; goto_assistlocation; # er: personhere -> dialogue_whattime; waitfor_not_personhere; restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-rest of the plan:  goto_assistlocation; # er: personhere -> dialogue_whattime; waitfor_not_personhere; restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-..adding action: dialogue_lookforhelp
-current plan:  goto_assistlocation; # er: personhere -> dialogue_whattime; waitfor_not_personhere; restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-rest of the plan:  # er: personhere -> dialogue_whattime; waitfor_not_personhere; restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-..adding action: goto_assistlocation
-current plan:  # er: personhere -> dialogue_whattime; waitfor_not_personhere; restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-rest of the plan:  waitfor_not_personhere; restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-..adding action: # er: personhere - dialogue_whattime
-current plan:  waitfor_not_personhere; restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-rest of the plan:  restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-..adding action: waitfor_not_personhere
-current plan:  restart_action find_person; dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-rest of the plan:  dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-..adding action: restart_action find_person
-current plan:  dialogue_guide; goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-rest of the plan:  goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-..adding action: dialogue_guide
-current plan:  goto_car; # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-rest of the plan:  # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-..adding action: goto_car
-current plan:  # er: (not personbehind) -> turn_around; dialogue_callperson dialogue_arrivedcar;
-rest of the plan:  dialogue_callperson dialogue_arrivedcar;
-..adding action: # er: (not personbehind) - turn_around
-current plan:  dialogue_callperson dialogue_arrivedcar;
+current plan:  say_hello; followuntil_screentouched; say_goodbye; headpose_0_0;
+rest of the plan:  followuntil_screentouched; say_goodbye; headpose_0_0;
+..adding action: say_hello
+current plan:  followuntil_screentouched; say_goodbye; headpose_0_0;
+rest of the plan:  say_goodbye; headpose_0_0;
+..adding action: followuntil_screentouched
+current plan:  say_goodbye; headpose_0_0;
+rest of the plan:  headpose_0_0;
+..adding action: say_goodbye
+current plan:  headpose_0_0;
 rest of the plan: 
-..adding action: dialogue_callperson dialogue_arrivedcar
+..adding action: headpose_0_0
 current plan: 
 end
 
 PNP 'helpmecarry' saved.
-PNP stats: 'Actions: 10 Places: 21 Transitions: 20 Edges: 40
+PNP stats: 'Actions: 8 Places: 17 Transitions: 16 Edges: 32

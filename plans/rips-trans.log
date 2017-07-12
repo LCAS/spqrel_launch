@@ -1,23 +1,44 @@
 
 Generation of PNP 'rips'
-plan read:  waitfor_dooropen; goto_entrance; waitfor_screentouched; goto_exit;         # er: if personhere say_hello
-current plan:  waitfor_dooropen; goto_entrance; waitfor_screentouched; goto_exit;         # er: if personhere say_hello
-rest of the plan:  goto_entrance; waitfor_screentouched; goto_exit;         # er: if personhere say_hello
+plan read:  posture_Stand; headpose_0_-4; waitfor_dooropen; say_starting; headpose_0_-4; goto_entrance; goto_rips; waitfor_screentouched; say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
+current plan:  posture_Stand; headpose_0_-4; waitfor_dooropen; say_starting; headpose_0_-4; goto_entrance; goto_rips; waitfor_screentouched; say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
+rest of the plan:  headpose_0_-4; waitfor_dooropen; say_starting; headpose_0_-4; goto_entrance; goto_rips; waitfor_screentouched; say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
+..adding action: posture_Stand
+current plan:  headpose_0_-4; waitfor_dooropen; say_starting; headpose_0_-4; goto_entrance; goto_rips; waitfor_screentouched; say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
+rest of the plan:  waitfor_dooropen; say_starting; headpose_0_-4; goto_entrance; goto_rips; waitfor_screentouched; say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
+..adding action: headpose_0_-4
+current plan:  waitfor_dooropen; say_starting; headpose_0_-4; goto_entrance; goto_rips; waitfor_screentouched; say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
+rest of the plan:  say_starting; headpose_0_-4; goto_entrance; goto_rips; waitfor_screentouched; say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
 ..adding action: waitfor_dooropen
-current plan:  goto_entrance; waitfor_screentouched; goto_exit;         # er: if personhere say_hello
-rest of the plan:  waitfor_screentouched; goto_exit;         # er: if personhere say_hello
+current plan:  say_starting; headpose_0_-4; goto_entrance; goto_rips; waitfor_screentouched; say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
+rest of the plan:  headpose_0_-4; goto_entrance; goto_rips; waitfor_screentouched; say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
+..adding action: say_starting
+current plan:  headpose_0_-4; goto_entrance; goto_rips; waitfor_screentouched; say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
+rest of the plan:  goto_entrance; goto_rips; waitfor_screentouched; say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
+..adding action: headpose_0_-4
+current plan:  goto_entrance; goto_rips; waitfor_screentouched; say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
+rest of the plan:  goto_rips; waitfor_screentouched; say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
 ..adding action: goto_entrance
-current plan:  waitfor_screentouched; goto_exit;         # er: if personhere say_hello
-rest of the plan:  goto_exit;         # er: if personhere say_hello
+current plan:  goto_rips; waitfor_screentouched; say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
+rest of the plan:  waitfor_screentouched; say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
+..adding action: goto_rips
+current plan:  waitfor_screentouched; say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
+rest of the plan:  say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
 ..adding action: waitfor_screentouched
-current plan:  goto_exit;         # er: if personhere say_hello
-rest of the plan:          # er: if personhere say_hello
-..adding action: goto_exit
-current plan:          # er: if personhere say_hello
+current plan:  say_goodbye; headpose_0_-4; goto_entrance; goto_exit;
+rest of the plan:  headpose_0_-4; goto_entrance; goto_exit;
+..adding action: say_goodbye
+current plan:  headpose_0_-4; goto_entrance; goto_exit;
+rest of the plan:  goto_entrance; goto_exit;
+..adding action: headpose_0_-4
+current plan:  goto_entrance; goto_exit;
+rest of the plan:  goto_exit;
+..adding action: goto_entrance
+current plan:  goto_exit;
 rest of the plan: 
-..adding action: # er: if personhere say_hello
+..adding action: goto_exit
 current plan: 
 end
 
 PNP 'rips' saved.
-PNP stats: 'Actions: 4 Places: 9 Transitions: 8 Edges: 16
+PNP stats: 'Actions: 12 Places: 25 Transitions: 24 Edges: 48

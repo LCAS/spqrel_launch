@@ -5,8 +5,8 @@ CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o
  ../../PNP/include/pnp/pnp_action.h
  ../../PNP/include/pnp/pnp_executable.h
  ../../PNP/include/pnp/utils.h
- /home/iocchi/src/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp
- /home/iocchi/src/PetriNetPlans/PNPnaoqi/src/ActionProxy.h
+ /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/ActionProxy.cpp
+ /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/ActionProxy.h
 CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o
  ../../PNP/include/pnp/basic_plan/basic_plan.h
  ../../PNP/include/pnp/basic_plan/xml_plan_instantiator.h
@@ -29,5 +29,5 @@ CMakeFiles/pnp_test.dir/src/pnp_test.cpp.o
  ../../PNP/include/pnp/pnp_plan.hpp
  ../../PNP/include/pnp/pnpfwd.h
  ../../PNP/include/pnp/utils.h
- /home/iocchi/src/PetriNetPlans/PNPnaoqi/src/ActionProxy.h
- /home/iocchi/src/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp
+ /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/ActionProxy.h
+ /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/pnp_test.cpp

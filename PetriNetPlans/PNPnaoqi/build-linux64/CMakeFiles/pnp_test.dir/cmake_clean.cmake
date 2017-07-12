@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/pnp_test.dir/src/ActionProxy.cpp.o"
   "sdk/bin/pnp_test.pdb"
   "sdk/bin/pnp_test"
+  "sdk/bin/pnp_test.pdb"
+  "CMakeFiles/CMakeRelink.dir/pnp_test"
 )
 
 # Per-language clean rules from dependency scanning.

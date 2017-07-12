@@ -2,9 +2,9 @@
 # Do not edit.
 # Do not change location.
  
-set(PNP_INCLUDE_DIRS "/home/iocchi/src/PetriNetPlans/PNPnaoqi;/home/iocchi/src/PetriNetPlans/PNPnaoqi/../PNP/include;/home/iocchi/src/PetriNetPlans/PNPnaoqi/include;/usr/include/libxml2" CACHE INTERNAL "" FORCE)
+set(PNP_INCLUDE_DIRS "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi;/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/../PNP/include;/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/include;/usr/include/libxml2" CACHE INTERNAL "" FORCE)
  
-set(PNP_LIBRARIES "general;/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/sdk/lib/libpnp.so" CACHE INTERNAL "" FORCE)
+set(PNP_LIBRARIES "general;/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64/sdk/lib/libpnp.so" CACHE INTERNAL "" FORCE)
  
 set(PNP_TARGET "pnp" CACHE INTERNAL "" FORCE)
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/iocchi/src/PetriNetPlans/PNP/src/test/learning_plan/envs/env1
+# Install script for directory: /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNP/src/test/learning_plan/envs/env1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

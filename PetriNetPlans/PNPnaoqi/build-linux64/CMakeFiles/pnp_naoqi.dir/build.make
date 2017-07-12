@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/iocchi/src/PetriNetPlans/PNPnaoqi
+CMAKE_SOURCE_DIR = /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64
+CMAKE_BINARY_DIR = /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pnp_naoqi.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/pnp_naoqi.dir/flags.make
 
 CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.o: CMakeFiles/pnp_naoqi.dir/flags.make
 CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.o: ../src/pnp_naoqi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.o -c /home/iocchi/src/PetriNetPlans/PNPnaoqi/src/pnp_naoqi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.o -c /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/pnp_naoqi.cpp
 
 CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iocchi/src/PetriNetPlans/PNPnaoqi/src/pnp_naoqi.cpp > CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/pnp_naoqi.cpp > CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.i
 
 CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iocchi/src/PetriNetPlans/PNPnaoqi/src/pnp_naoqi.cpp -o CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/pnp_naoqi.cpp -o CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.s
 
 CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.o.provides.build: CMakeFiles/pnp_naoq
 
 CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.o: CMakeFiles/pnp_naoqi.dir/flags.make
 CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.o: ../src/NaoqiActionProxy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.o -c /home/iocchi/src/PetriNetPlans/PNPnaoqi/src/NaoqiActionProxy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.o -c /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/NaoqiActionProxy.cpp
 
 CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iocchi/src/PetriNetPlans/PNPnaoqi/src/NaoqiActionProxy.cpp > CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/NaoqiActionProxy.cpp > CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.i
 
 CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iocchi/src/PetriNetPlans/PNPnaoqi/src/NaoqiActionProxy.cpp -o CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/src/NaoqiActionProxy.cpp -o CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.s
 
 CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.o.requires:
 
@@ -118,42 +118,92 @@ sdk/bin/pnp_naoqi: CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.o
 sdk/bin/pnp_naoqi: CMakeFiles/pnp_naoqi.dir/build.make
 sdk/bin/pnp_naoqi: sdk/lib/libpnp.so
 sdk/bin/pnp_naoqi: /usr/lib/x86_64-linux-gnu/libxml2.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libalproxies.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libalcommon.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_signals.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/librttools.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libalvalue.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libalthread.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libalerror.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libqi.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_date_time.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_chrono.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_filesystem.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_system.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_regex.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_program_options.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libssl.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libcrypto.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_locale.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libboost_thread.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libicudata.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libicui18n.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libicuio.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libicule.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libiculx.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libicutest.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libicutu.so
-sdk/bin/pnp_naoqi: /opt/Aldebaran/naoqi/naoqi-sdk-2.5.5.5-linux64/lib/libicuuc.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libalproxies.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libalcommon.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_signals.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/librttools.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libalvalue.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libalthread.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libalerror.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libqi.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_date_time.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_chrono.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_filesystem.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_system.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_regex.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_program_options.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libssl.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libcrypto.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_locale.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_thread.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicudata.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicui18n.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicuio.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicule.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libiculx.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicutest.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicutu.so
+sdk/bin/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicuuc.so
 sdk/bin/pnp_naoqi: /usr/lib/x86_64-linux-gnu/libdl.so
 sdk/bin/pnp_naoqi: /usr/lib/x86_64-linux-gnu/librt.so
 sdk/bin/pnp_naoqi: CMakeFiles/pnp_naoqi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sdk/bin/pnp_naoqi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sdk/bin/pnp_naoqi"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pnp_naoqi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 CMakeFiles/pnp_naoqi.dir/build: sdk/bin/pnp_naoqi
 
 .PHONY : CMakeFiles/pnp_naoqi.dir/build
+
+# Object files for target pnp_naoqi
+pnp_naoqi_OBJECTS = \
+"CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.o" \
+"CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.o"
+
+# External object files for target pnp_naoqi
+pnp_naoqi_EXTERNAL_OBJECTS =
+
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.o
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.o
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: CMakeFiles/pnp_naoqi.dir/build.make
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: sdk/lib/libpnp.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /usr/lib/x86_64-linux-gnu/libxml2.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libalproxies.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libalcommon.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_signals.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/librttools.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libalvalue.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libalthread.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libalerror.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libqi.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_date_time.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_chrono.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_filesystem.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_system.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_regex.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_program_options.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libssl.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libcrypto.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_locale.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libboost_thread.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicudata.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicui18n.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicuio.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicule.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libiculx.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicutest.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicutu.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /home/marc/workspace/SPQReL/naoqi-sdk-2.5.5.5-linux64/lib/libicuuc.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /usr/lib/x86_64-linux-gnu/libdl.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: /usr/lib/x86_64-linux-gnu/librt.so
+CMakeFiles/CMakeRelink.dir/pnp_naoqi: CMakeFiles/pnp_naoqi.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CMakeFiles/CMakeRelink.dir/pnp_naoqi"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pnp_naoqi.dir/relink.txt --verbose=$(VERBOSE)
+
+# Rule to relink during preinstall.
+CMakeFiles/pnp_naoqi.dir/preinstall: CMakeFiles/CMakeRelink.dir/pnp_naoqi
+
+.PHONY : CMakeFiles/pnp_naoqi.dir/preinstall
 
 CMakeFiles/pnp_naoqi.dir/requires: CMakeFiles/pnp_naoqi.dir/src/pnp_naoqi.cpp.o.requires
 CMakeFiles/pnp_naoqi.dir/requires: CMakeFiles/pnp_naoqi.dir/src/NaoqiActionProxy.cpp.o.requires
@@ -165,6 +215,6 @@ CMakeFiles/pnp_naoqi.dir/clean:
 .PHONY : CMakeFiles/pnp_naoqi.dir/clean
 
 CMakeFiles/pnp_naoqi.dir/depend:
-	cd /home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/iocchi/src/PetriNetPlans/PNPnaoqi /home/iocchi/src/PetriNetPlans/PNPnaoqi /home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64 /home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64 /home/iocchi/src/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles/pnp_naoqi.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64 /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64 /home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPnaoqi/build-linux64/CMakeFiles/pnp_naoqi.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pnp_naoqi.dir/depend
 

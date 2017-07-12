@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/iocchi/src/PetriNetPlans/PNPgen/src/pnp_translator/digraph_transl.cpp" "/home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.o"
-  "/home/iocchi/src/PetriNetPlans/PNPgen/src/pnpgenerator.cpp" "/home/iocchi/src/PetriNetPlans/PNPgen/build/CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.o"
+  "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnp_translator/digraph_transl.cpp" "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles/pnpgen.dir/src/pnp_translator/digraph_transl.cpp.o"
+  "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/src/pnpgenerator.cpp" "/home/marc/workspace/SPQReL/worktree/PetriNetPlans/PNPgen/build/CMakeFiles/pnpgen.dir/src/pnpgenerator.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
