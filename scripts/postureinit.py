@@ -33,6 +33,7 @@ def main():
                "Please check your script arguments. Run with -h option for help.")
         sys.exit(1)
 
+    do_init(session)
 
 if __name__ == "__main__":
     main()
