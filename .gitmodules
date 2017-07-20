@@ -2,15 +2,19 @@
 	path = worktree/spqrel_tools
 	url = git@github.com:LCAS/spqrel_tools.git
 	branch = master
+	ignore = dirty
 [submodule "worktree/spqrel_navigation"]
 	path = worktree/spqrel_navigation
 	url = git@github.com:LCAS/spqrel_navigation.git
 	branch = master
+	ignore = dirty
 [submodule "worktree/PetriNetPlans"]
 	path = worktree/PetriNetPlans
 	url = git@github.com:iocchi/PetriNetPlans.git
 	branch = master
+	ignore = dirty
 [submodule "worktree/robot_blockly"]
 	path = worktree/robot_blockly
 	url = git@github.com:LCAS/robot_blockly.git
 	branch = pnp
+	ignore = dirty
