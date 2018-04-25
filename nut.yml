@@ -4,24 +4,42 @@ syntax_version: "7"
 project_name: spqrel
 enable_gui: true
 volumes: 
+#  etc_passwd:
+#    host_path: /etc/passwd
+#    container_path: /etc/passwd
+#  etc_group:
+#    host_path: /etc/group
+#    container_path: /etc/group
   main: 
     host_path: .
     container_path: /sqprel/workspace/spqrel_launch      # this folder (in the container)
 container_working_directory: /sqprel/workspace/spqrel_launch
 net: host
 macros:
+  clean:
+    usage: clean all
+#    enable_current_user: true
+    actions:
+    - cd worktree/spqrel_tools
+    - make clean TOOLCHAIN=pepper
+    - make clean TOOLCHAIN=linux64
   build-pepper:
     usage: build ctc
+#    enable_current_user: true
     actions:
+    - cd worktree/spqrel_tools
     - make TOOLCHAIN=pepper
     - make install TOOLCHAIN=pepper
   build-linux:
     usage: build for linux64
+#    enable_current_user: true
     actions:
+    - cd worktree/spqrel_tools
     - make TOOLCHAIN=linux64
     - make install TOOLCHAIN=linux64
   bash:
     usage: interactive shell
+#    enable_current_user: true
     actions:
     - bash
-docker_image: lcasuol/spqrel_docker:pepper
+docker_image: lcasuol/spqrel_launch:latest
