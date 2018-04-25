@@ -15,12 +15,12 @@ ADD https://lcas.lincoln.ac.uk/owncloud/index.php/s/424z8mYr9TKX7J7/download /py
 ADD https://lcas.lincoln.ac.uk/owncloud/index.php/s/1PLbRNtgklY6NCB/download /naoqi-sdk-2.5.5.5-linux64.tar.gz
 
 RUN mkdir -p /spqrel/workspace
-WORKDIR /sqprel
+WORKDIR /spqrel
 RUN unzip /ctc-linux64-atom-2.5.2.74.zip
 RUN tar xzf /naoqi-sdk-2.5.5.5-linux64.tar.gz
 RUN tar xzf /pynaoqi-python2.7-2.5.5.5-linux64.tar.gz
 
-WORKDIR /sqprel/workspace
+WORKDIR /spqrel/workspace
 
 RUN qitoolchain create linux64 ../naoqi-sdk-2.5.5.5-linux64/toolchain.xml
 RUN qibuild add-config linux64 -t linux64
@@ -32,6 +32,6 @@ RUN git config --global user.email "spqrel@googlegroups.com"
 RUN git config --global user.name "SPQReL team"
 RUN git config --global push.default simple
 
-COPY . /sqprel/workspace/spqrel_launch
+COPY . /spqrel/workspace/spqrel_launch
 
 CMD /bin/bash

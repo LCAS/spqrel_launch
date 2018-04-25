@@ -12,8 +12,8 @@ volumes:
 #    container_path: /etc/group
   main: 
     host_path: .
-    container_path: /sqprel/workspace/spqrel_launch      # this folder (in the container)
-container_working_directory: /sqprel/workspace/spqrel_launch
+    container_path: /spqrel/workspace/spqrel_launch      # this folder (in the container)
+container_working_directory: /spqrel/workspace/spqrel_launch
 net: host
 macros:
   clean:
