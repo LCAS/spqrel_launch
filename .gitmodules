@@ -1,20 +1,20 @@
 [submodule "worktree/spqrel_tools"]
 	path = worktree/spqrel_tools
-	url = https://github.com/LCAS/spqrel_tools.git
+	url = git@github.com:LCAS/spqrel_tools.git
 	branch = master
 	ignore = dirty
 [submodule "worktree/spqrel_navigation"]
 	path = worktree/spqrel_navigation
-	url = https://github.com/LCAS/spqrel_navigation.git
+	url = git@github.com:LCAS/spqrel_navigation.git
 	branch = master
 	ignore = dirty
 [submodule "worktree/PetriNetPlans"]
 	path = worktree/PetriNetPlans
-	url = https://github.com/iocchi/PetriNetPlans.git
+	url = git@github.com:iocchi/PetriNetPlans.git
 	branch = master
 	ignore = dirty
 [submodule "worktree/robot_blockly"]
 	path = worktree/robot_blockly
-	url = https://github.com/LCAS/robot_blockly.git
+	url = git@github.com:LCAS/robot_blockly.git
 	branch = pnp
 	ignore = dirty
