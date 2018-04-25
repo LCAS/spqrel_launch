@@ -1,0 +1,27 @@
+# get nut to use this from https://github.com/matthieudelaro/nut#getting-nut
+
+syntax_version: "7"
+project_name: spqrel
+enable_gui: true
+volumes: 
+  main: 
+    host_path: .
+    container_path: /sqprel/workspace/spqrel_launch      # this folder (in the container)
+container_working_directory: /sqprel/workspace/spqrel_launch
+net: host
+macros:
+  build-pepper:
+    usage: build ctc
+    actions:
+    - make TOOLCHAIN=pepper
+    - make install TOOLCHAIN=pepper
+  build-linux:
+    usage: build for linux64
+    actions:
+    - make TOOLCHAIN=linux64
+    - make install TOOLCHAIN=linux64
+  bash:
+    usage: interactive shell
+    actions:
+    - bash
+docker_image: lcasuol/spqrel_docker:pepper
