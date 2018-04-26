@@ -31,6 +31,7 @@ RUN qibuild add-config pepper -t pepper
 RUN git config --global user.email "spqrel@googlegroups.com"
 RUN git config --global user.name "SPQReL team"
 RUN git config --global push.default simple
+RUN git config --global credential.helper cache
 
 COPY . /spqrel/workspace/spqrel_launch
 
