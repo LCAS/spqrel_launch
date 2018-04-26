@@ -2,7 +2,7 @@ FROM ubuntu:xenial
 RUN apt-get update
 RUN apt-get -y --force-yes upgrade
 RUN apt-get install -y --force-yes \
-						autoconf make cmake python python-pip zip \
+						curl autoconf make cmake python python-pip zip \
 						git build-essential gcc-multilib g++-multilib flex bison \
 						libboost-dev libboost-regex-dev libxml2-dev libxml++2.6-dev \
 						vim nano libpng12-dev libfl-dev
@@ -10,15 +10,18 @@ RUN apt-get install -y --force-yes \
 RUN pip install --upgrade pip
 RUN pip install qibuild
 
-ADD https://lcas.lincoln.ac.uk/owncloud/index.php/s/prwtrlDAsdagt1h/download /ctc-linux64-atom-2.5.2.74.zip
-ADD https://lcas.lincoln.ac.uk/owncloud/index.php/s/424z8mYr9TKX7J7/download /pynaoqi-python2.7-2.5.5.5-linux64.tar.gz
-ADD https://lcas.lincoln.ac.uk/owncloud/index.php/s/1PLbRNtgklY6NCB/download /naoqi-sdk-2.5.5.5-linux64.tar.gz
-
 RUN mkdir -p /spqrel/workspace
 WORKDIR /spqrel
-RUN unzip /ctc-linux64-atom-2.5.2.74.zip
-RUN tar xzf /naoqi-sdk-2.5.5.5-linux64.tar.gz
-RUN tar xzf /pynaoqi-python2.7-2.5.5.5-linux64.tar.gz
+
+RUN curl https://lcas.lincoln.ac.uk/owncloud/index.php/s/prwtrlDAsdagt1h/download > /ctc-linux64-atom-2.5.2.74.zip && \
+		unzip /ctc-linux64-atom-2.5.2.74.zip && \
+		rm /ctc-linux64-atom-2.5.2.74.zip
+RUN curl https://lcas.lincoln.ac.uk/owncloud/index.php/s/424z8mYr9TKX7J7/download | tar xz
+RUN curl https://lcas.lincoln.ac.uk/owncloud/index.php/s/1PLbRNtgklY6NCB/download | tar xz
+
+#RUN unzip /ctc-linux64-atom-2.5.2.74.zip
+#RUN tar xzf /naoqi-sdk-2.5.5.5-linux64.tar.gz
+#RUN tar xzf /pynaoqi-python2.7-2.5.5.5-linux64.tar.gz
 
 WORKDIR /spqrel/workspace
 
