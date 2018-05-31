@@ -18,3 +18,13 @@
 	url = git@github.com:LCAS/robot_blockly.git
 	branch = pnp
 	ignore = dirty
+[submodule "worktree/pepper_tools"]
+	path = worktree/pepper_tools
+	url = https://bitbucket.org/mtlazaro/pepper_tools
+	branch = master
+	ignore = dirty
+[submodule "worktree/modim"]
+	path = worktree/modim
+	url = https://bitbucket.org/mtlazaro/modim
+	branch = master
+	ignore = dirty
