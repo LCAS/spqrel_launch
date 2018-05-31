@@ -35,6 +35,7 @@ RUN git config --global user.email "spqrel@googlegroups.com"
 RUN git config --global user.name "SPQReL team"
 RUN git config --global push.default simple
 RUN git config --global credential.helper cache
+RUN pip install tmule tornado
 
 COPY . /spqrel/workspace/spqrel_launch
 
