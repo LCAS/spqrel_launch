@@ -20,11 +20,11 @@
 	ignore = dirty
 [submodule "worktree/pepper_tools"]
 	path = worktree/pepper_tools
-	url = https://bitbucket.org/mtlazaro/pepper_tools
+	url = git@bitbucket.org:mtlazaro/pepper_tools.git
 	branch = master
 	ignore = dirty
 [submodule "worktree/modim"]
 	path = worktree/modim
-	url = https://bitbucket.org/mtlazaro/modim
+	url = git@bitbucket.org:mtlazaro/modim.git
 	branch = master
 	ignore = dirty
