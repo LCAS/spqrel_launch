@@ -30,7 +30,7 @@
 	ignore = dirty
 [submodule "worktree/depth2laser"]
 	path = worktree/depth2laser
-	url = https://bitbucket.org/mtlazaro/depth2laser.git
+	url = git@bitbucket.org:mtlazaro/depth2laser.git
 	branch = master
         ignore = dirty
 
