@@ -28,3 +28,9 @@
 	url = git@bitbucket.org:mtlazaro/modim.git
 	branch = master
 	ignore = dirty
+[submodule "worktree/depth2laser"]
+	path = worktree/depth2laser
+	url = https://bitbucket.org/mtlazaro/depth2laser.git
+	branch = master
+        ignore = dirty
+
